@@ -1,2 +1,2 @@
 # SwiftStudyNotes
-Topics with some information to repeat or remember the theme
+#Topics with some information to repeat or remember the theme
