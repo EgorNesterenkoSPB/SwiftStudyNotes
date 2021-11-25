@@ -1,8 +1,8 @@
 # SwiftStudyNotes
 # Topics with some information to repeat or remember the theme
-[SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
+[Parameters](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Parameters)
 # Swift
-## Parameters
+### Parameters
 Переменные – var.
 
 Константы – let.
