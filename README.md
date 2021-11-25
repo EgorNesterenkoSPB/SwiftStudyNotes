@@ -5,7 +5,7 @@
 [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
 [MVVM](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVVM)
-# SwiftUI
+# SwiftUI :cupid:
 
 ## MVVM
 
