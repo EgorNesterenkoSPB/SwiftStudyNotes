@@ -2,10 +2,10 @@
 # Topics with some information to repeat or remember the theme :heart_eyes_cat:
 [Swift](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Swift)
 
-[SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
+[SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI:cupid:)
 
 [MVVM](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVVM)
-# SwiftUI :cupid:
+# SwiftUI:cupid:
 
 ## MVVM
 
