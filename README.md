@@ -1,4 +1,4 @@
-# SwiftStudyNotes
+# SwiftStudyNotes :octocat:
 # Topics with some information to repeat or remember the theme
 [Swift](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Swift)
 
