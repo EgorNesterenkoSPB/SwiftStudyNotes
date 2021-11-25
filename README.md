@@ -1,6 +1,6 @@
 # SwiftStudyNotes :octocat:
 # Topics with some information to repeat or remember the theme :heart_eyes_cat:
-![Alt-userD503](https://vk.com/billlionareboy?z=photo662529711_457239026%2Falbum662529711_000%2Frev)
+![Alt-userD503](https://sun9-45.userapi.com/impg/UgUbvLP-EjVueaNLdjM4kaSdewuAQ2sffMrsJg/yBFjglfgQtY.jpg?size=640x823&quality=96&sign=8ced8c778aaef4554e382da0bbe2a014&type=album)
 - [Swift](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Swift)
 
   - [MVC](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVC)
