@@ -1,12 +1,12 @@
 # SwiftStudyNotes :octocat:
 # Topics with some information to repeat or remember the theme :heart_eyes_cat:
-[Swift](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Swift)
+- [Swift](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Swift)
 
-[MVC](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVC)
+  - [MVC](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVC)
 
-[SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
+- [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
-[MVVM](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVVM)
+  - [MVVM](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVVM)
 # SwiftUI
 
 ## MVVM
