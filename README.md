@@ -45,7 +45,7 @@ App delegate используется также для захвата жизн�
 onChange – метод который запускает замыкание каждый раз когда scenePhase изменяется
 
 Пример установки AppDelegate:
-
+![Alt-example](https://sun9-76.userapi.com/impg/RarWssqC92FGZSluKniyMjoyggCZLZDZzjPg2g/rmxh0qhM7gY.jpg?size=690x500&quality=96&sign=24261dabfbc61b4f5ab9ddae2d78c2a4&type=album)
 
  
 
