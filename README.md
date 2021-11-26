@@ -16,11 +16,11 @@
 ## LifeCycle
 Appdelegate – точка входа в приложение, класс управляющим состояним приложения
 
-App delegate снабжен @UIApplicationmain, который указывает что этот app delegate приложения является отправной точкой приложения
+App delegate снабжен `@UIApplicationmain`, который указывает что этот app delegate приложения является отправной точкой приложения
 
 IOS создает экземпляр UIApplication и назначает экземпляр app delegate класса к delegate свойству поэтому можно настраивать что происходит когда приложение запускается
 
-Самая важная функция application(_:didFinishLaunchingWithOptions:)
+Самая важная функция `application(_:didFinishLaunchingWithOptions:)
 Используется для:
 1.установки Firebase, Parse Server и так далее
 2.устанавливать app windows root view controller
