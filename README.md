@@ -7,8 +7,17 @@
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
+  - [LifeCycle](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#LifeCycle)
   - [MVVM](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVVM)
+  - [Add AppDelegate and SceneDelegate](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Add AppDelegate and SceneDelegate)
+  - [Create one-time welcome view](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create one-time welcome view)
 # SwiftUI
+
+## LifeCycle
+
+## Add AppDelegate and SceneDelegate
+
+## Create one-time welcome view
 
 ## MVVM
 
