@@ -17,7 +17,7 @@
 
 ## Add_AppDelegate_and_SceneDelegate
 
-## Create_one-time welcome_view
+## Create_one-time_welcome_view
 
 ## MVVM
 
