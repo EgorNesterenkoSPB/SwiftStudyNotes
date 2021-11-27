@@ -15,6 +15,17 @@
 # SwiftUI
 
 ## Limit_characters_in_TextField
+AudioToolbox фрэймворк нужен чтобы реагировать когда пользователь ввел больше символов чем установлено
+![Alt-example](https://sun9-35.userapi.com/impg/__rrevtlkMFKazoJ4H4KRw4Ml1499Fs20x0XvQ/8sgbtEE9ZJA.jpg?size=346x106&quality=96&sign=28b9c44647e301e377c58e4b9ba35732&type=album)
+
+![Alt-example](https://sun9-63.userapi.com/impg/2La2z4M68QHGa5rqgfYKU9g9huo8JeF6bdCv7Q/_4SCarl09Rc.jpg?size=508x202&quality=96&sign=0c164f20ca191f03501d2fd062f8bbe5&type=album)
+
+![Alt-example](https://sun9-54.userapi.com/impg/AxWBcIgJb7Mpu_nMCkzDhCdbzsnomgnXOjVJGA/db7PP8Zc-w8.jpg?size=936x126&quality=96&sign=6777e4f5c6e835b234b5dfcb77c4c323&type=album)
+
+![Alt-example](https://sun9-81.userapi.com/impg/LbaGew7txf_FxsGG_gGNRtbxlTWgSJlOgV4Gcg/HP5xnLFYJn4.jpg?size=936x206&quality=96&sign=5430657fa2896c424dbe09155fbc8f37&type=album)
+
+В параметре userInput делаем didSet чтобы при каждом изменение отслеживалось условие:
+![Alt-example](https://sun9-17.userapi.com/impg/WARN0CUFBy0W0vTIPwhTQNFvXT3HpXRHcjQXxg/jgS3B8NZfXg.jpg?size=936x188&quality=96&sign=11a2abd10f640500758a569926c1a7bd&type=album)
 
 ## LifeCycle
 Appdelegate – точка входа в приложение, класс управляющим состояним приложения
