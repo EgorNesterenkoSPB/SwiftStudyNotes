@@ -14,6 +14,39 @@
   - [Create one-time welcome view](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create_one-time_welcome_view)
 # SwiftUI
 
+## Local_Notification
+![Alt-example](https://sun9-28.userapi.com/impg/ANTFZrvis9LC8Yq9dJLJRqE8H1kbLBk5FxQTBA/V0-72Xkgd0w.jpg?size=664x166&quality=96&sign=6e887dc8c714010eb27d330aaa6a1b19&type=album)
+
+Параметр notifications хранит Notofication objects которые создаются
+
+Нужно пользователя спросить его разрешение на отправку уведомлений:
+![Alt-example](https://sun9-79.userapi.com/impg/uurEmjGTosYNap5rBxjFrX3WgZKjNfdsxm0JnA/SjPTUT8O1dM.jpg?size=780x236&quality=96&sign=4b3a598ced7d20cc635f0989f0711411&type=album)
+
+UserNotificationCenter – запрашивает delegate на то как использовать уведомления которые поступают пока приложение находится на переднем плане
+
+Badge – использует значок app icon для уведомления 
+
+Sound – произведение звука при уведомлении
+
+Внутри класса создается функция которая используется для установки контента который будет использоваться в уведомлении:
+![Alt-example](https://sun9-37.userapi.com/impg/2WaZlCD_TSQ98YQYQsQvoGv4N2B1RAv1pSY_Bg/7vj-tOUl9Sk.jpg?size=936x468&quality=96&sign=85ca07dabd44809f1cb41ff5d51e27cd&type=album)
+ 
+UnNotificationAttachment – медиа файл связанный с уведомлением, например видео, изображение или аудио контент который должен быть на диске и в правильном формате
+
+Устанавливаем триггер для уведомления чтобы оно появилось, на примере ниже это будет временный интервал в 5 секунд:
+![Alt-example](https://sun9-75.userapi.com/impg/E77tA--3mT57Es7np1V16R8FyRkZzSbFyM6p2Q/ySxWtWo-BAs.jpg?size=936x222&quality=96&sign=c663fda3cef5ec1b85bbe64f8521ae09&type=album)
+
+UNTimeIntervalNotificationTrigger – триггерное условие которое заставляет систему доставить уведомление после указанного времени
+
+UNNotificationRequest – запрос на назначение локального уведомления, который включает в себя content и trigger условия
+
+Добавляем запрос:
+![Alt-example](https://sun9-13.userapi.com/impg/twUe8jZAaEIjFIGz9mnHGFUXZ149AVN60x39Dw/nDA0lagLkco.jpg?size=936x170&quality=96&sign=ccc15cbd569e6953a75fc897dcd8c844&type=album)
+
+![Alt-example](https://sun9-20.userapi.com/impg/ZQb1m57XmlfxQ3vieT51UI7ALiH3tp_F0rastA/-zVPZXyweP8.jpg?size=936x152&quality=96&sign=94cfbbbd706fe6f3303383d9fa81d5f3&type=album)
+
+![Alt-example](https://sun9-71.userapi.com/impg/FJ_Pkie--gNCSJ0ywy9_ZfI_ize8_hn7Q_8l2Q/CNWvRIui9fQ.jpg?size=936x144&quality=96&sign=20ad72f7acc3f6a9f8af8f1917790554&type=album)
+
 ## Limit_characters_in_TextField
 AudioToolbox фрэймворк нужен чтобы реагировать когда пользователь ввел больше символов чем установлено
 ![Alt-example](https://sun9-35.userapi.com/impg/__rrevtlkMFKazoJ4H4KRw4Ml1499Fs20x0XvQ/8sgbtEE9ZJA.jpg?size=346x106&quality=96&sign=28b9c44647e301e377c58e4b9ba35732&type=album)
