@@ -8,6 +8,7 @@
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
   - [LifeCycle](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#LifeCycle)
+  - [AVAudioPlayer](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#AVAudioPlayer)
   - [Lottie live animations](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Lottie_Animations)
   - [Local Notification](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Local_Notification)
   - [Limit characters in TextField](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Limit_characters_in_TextField)
