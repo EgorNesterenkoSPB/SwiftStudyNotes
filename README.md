@@ -8,12 +8,27 @@
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
   - [LifeCycle](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#LifeCycle)
+  - [Lottie live animations](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Lottie_Animations)
   - [Local Notification](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Local_Notification)
   - [Limit characters in TextField](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Limit_characters_in_TextField)
   - [MVVM](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVVM)
   - [Add AppDelegate and SceneDelegate](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Add_AppDelegate_and_SceneDelegate)
   - [Create one-time welcome view](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create_one-time_welcome_view)
 # SwiftUI
+
+## Lottie_Animations
+
+Ссылка на ресурс: https://lottiefiles.com/getting-started
+
+От туда загружаем JSON 
+
+Устанавливаем библиотеку в проект: https://github.com/airbnb/lottie-ios.git
+
+Dead Code Striping устанавливаем на NO в build target чтобы не приложение не крашилось 
+![Alt-example](https://sun9-52.userapi.com/impg/xH0-wZuv_Ebjfp7bpim9AFO_vXBifYW31PZ8Fg/QqRd38XNEtI.jpg?size=666x698&quality=96&sign=65965c2887d46816aa56856127d1d2ea&type=album)
+
+ВАЖНО заменить В 19 строке на параметр filename чтобы можно было настраивать под другие анимации которые добавлены и LottieView должно быть в любом Stack
+
 
 ## Local_Notification
 ![Alt-example](https://sun9-28.userapi.com/impg/ANTFZrvis9LC8Yq9dJLJRqE8H1kbLBk5FxQTBA/V0-72Xkgd0w.jpg?size=664x166&quality=96&sign=6e887dc8c714010eb27d330aaa6a1b19&type=album)
