@@ -16,6 +16,12 @@
   - [Create one-time welcome view](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create_one-time_welcome_view)
 # SwiftUI
 
+## AVAudioPlayer
+Вставляем файл типом mp3 в проект
+![Alt-exampl](https://sun9-71.userapi.com/impg/EPfv_8kovU1-3GxomLMeKcjxyDMK5B7wbGlFLA/o81M6MMEvNI.jpg?size=806x374&quality=96&sign=91285bead631eca2c5bcc2209fc5de4b&type=album)
+
+![Alt-example](https://sun9-20.userapi.com/impg/XaLlrK07NddMx3uP-iOCvKaEmOxJlSMaSOzr3Q/1RmOhrbfBho.jpg?size=608x124&quality=96&sign=14961a88b3b40027e68e9e01ac2c93c2&type=album)
+
 ## Lottie_Animations
 
 Ссылка на ресурс: https://lottiefiles.com/getting-started
@@ -65,6 +71,7 @@ UNNotificationRequest – запрос на назначение локальн�
 
 ## Limit_characters_in_TextField
 AudioToolbox фрэймворк нужен чтобы реагировать когда пользователь ввел больше символов чем установлено
+
 ![Alt-example](https://sun9-35.userapi.com/impg/__rrevtlkMFKazoJ4H4KRw4Ml1499Fs20x0XvQ/8sgbtEE9ZJA.jpg?size=346x106&quality=96&sign=28b9c44647e301e377c58e4b9ba35732&type=album)
 
 ![Alt-example](https://sun9-63.userapi.com/impg/2La2z4M68QHGa5rqgfYKU9g9huo8JeF6bdCv7Q/_4SCarl09Rc.jpg?size=508x202&quality=96&sign=0c164f20ca191f03501d2fd062f8bbe5&type=album)
