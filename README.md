@@ -24,7 +24,7 @@
 
 Устанавливаем библиотеку в проект: https://github.com/airbnb/lottie-ios.git
 
-Dead Code Striping устанавливаем на NO в build target чтобы не приложение не крашилось 
+Dead Code Striping устанавливаем на NO в build target чтобы приложение не крашилось 
 ![Alt-example](https://sun9-52.userapi.com/impg/xH0-wZuv_Ebjfp7bpim9AFO_vXBifYW31PZ8Fg/QqRd38XNEtI.jpg?size=666x698&quality=96&sign=65965c2887d46816aa56856127d1d2ea&type=album)
 
 ВАЖНО заменить В 19 строке на параметр filename чтобы можно было настраивать под другие анимации которые добавлены и LottieView должно быть в любом Stack
