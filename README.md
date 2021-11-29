@@ -184,6 +184,10 @@ UISceneDelagate используется для управления жизне�
 
 # Swift
 
+## Timer
+
+## MutatingFuncInStruct
+
 ## GCD
 Operations строится поверх GCD
 
