@@ -4,6 +4,7 @@
 - [Swift](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Swift)
 
   - [MVC](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVC)
+  - [GIT](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#GIT)
   - [GCD](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#GCD)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
@@ -362,5 +363,7 @@ BlockOperation управляет текущим выполнением одно
 ![Alt-example](https://sun9-70.userapi.com/impg/peljAYiTNSjvLatry_hO0YR7beqoFXEwP_qXiQ/tcISxtTibdc.jpg?size=294x204&quality=96&sign=d7e81d1feead1dec1a7a0a4c71b24ef8&type=album)
 
 ![Alt-example](https://sun9-65.userapi.com/impg/zIneVHHNPqGLHhm6IUjxdtz7OVUvG-yUJ7-9FQ/We0T2kGELSo.jpg?size=294x100&quality=96&sign=1399e1f3b1521cf7458a275c3bdf1637&type=album)
+
+## GIT
 
 ## MVC
