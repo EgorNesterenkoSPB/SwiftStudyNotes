@@ -6,6 +6,7 @@
   - [MVC](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVC)
   - [GIT](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#GIT)
   - [GCD](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#GCD)
+  - [CoreImage](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CoreImage)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -416,5 +417,7 @@ DC_Store – настроичный файл который сохраняет �
 Чтобы другому человеку работать над проектов на github – зайти на репозиторий – нажать на fork – сделать изменения – в добавленном репозитории нажать new pull request – create pull request – на аккаунте который создал изначальный репозиторий нажать на merge pull request – confirm merge
 
 ![Alt-example](https://sun9-59.userapi.com/impg/zt6SIPFz6gRSamGSwh2V9DvhjwDYDSTzcdc6Tw/3O81KlxE0hk.jpg?size=936x510&quality=96&sign=3744951f260f591bc3f1de582bddb330&type=album)
+
+## CoreImage
 
 ## MVC
