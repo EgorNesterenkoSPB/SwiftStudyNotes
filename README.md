@@ -471,6 +471,36 @@ Intensity – параметр picker-a
 
 ## Animation
 
+CGAffineTransform – структура которая представляет специфичные методы трансформации которые могут быть приняты на любой UIView объект или класс
 
+Увеличить размер в 2 раза:
+ 
+![Alt-example](https://sun9-78.userapi.com/impg/RMI33ERo4s_JumnLehZnAhvPB3G7Zq31c2HARA/2Fv0mUuKS-c.jpg?size=874x154&quality=96&sign=f691a948e1c4b4680435fa531ef87f75&type=album) 
+ 
+.identity – очищает все трансформации и сбрасывает все изменения которые были установлены
+ 
+![Alt-example](https://sun9-37.userapi.com/impg/Ltjwm7t3m1mUw2lWTtRItuvTikDQlrnStSvgmA/7kCrxJ70YJI.jpg?size=824x66&quality=96&sign=21c722919a0e97180292feb4bc24e4ba&type=album)
+
+Чтобы переместить объект в другую точку:
+ 
+![Alt-example](https://sun9-25.userapi.com/impg/BFdizyHjqWNpvfk3Y7XzMP1PpihsNrPl4qTO-A/Il3HwkJvIAY.jpg?size=936x64&quality=96&sign=db496d8133506381787483787150160d&type=album)
+
+Координаты начинают отсчитываться от точки объекта
+
+Чтобы вращать объект:
+
+![Alt-example](https://sun9-5.userapi.com/impg/n_yKuVTuP8QxLgPAO4jk9YNiuaz4hh250B8zyg/3yywAfx6rzg.jpg?size=936x64&quality=96&sign=a7cf0880cf8bf96b167dddf88e25bd7d&type=album)
+
+Значение в радианах указано в CGFloat
+Если вращать на 90 градусов то Core Animation высчитывает всегда короткий путь поэтому будет по часовой, а если вращать на 270 градусов то будет вращаться против часовой
+Также работает если указать 360 градусов то вращения не будет, а если 540 градусов то вращаться всего будет на 180 градусов
+
+Также можно добавить в анимацию изменения прозрачности объекта и изменение фона:
+
+![Alt-example](https://sun9-78.userapi.com/impg/S4AR1p4gjHUOOY2n9xMbXkf7kbI-stQVTEDlng/QC72Sa3LEbU.jpg?size=812x206&quality=96&sign=2c26b693099bf7181bd3057e0ba5db33&type=album)
+
+Чтобы добавить пружинитости при анимации объекта: usingSpringWithDamping и initialSpringVelocity
+
+![Alt-example](https://sun9-57.userapi.com/impg/dizVjnetFMYVeYNyzcQAWO069T1ntqH5Toowow/OxUzu8OPUzg.jpg?size=936x62&quality=96&sign=4973d4abf8b197078feadf0d989dcfb6&type=album)
 
 ## MVC
