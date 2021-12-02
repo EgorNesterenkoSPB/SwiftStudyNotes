@@ -1,5 +1,5 @@
 # SwiftStudyNotes :octocat:
-# Topics with some information to repeat or remember the theme :heart_eyes_cat:
+# Topics with some information to repeat or remember a theme :heart_eyes_cat:
 ![Alt-userD503](https://quickbirdstudios.com/blog/wp-content/uploads/2019/11/Swift-1.jpg)
 - [Swift](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Swift)
 
