@@ -458,8 +458,11 @@ Intensity – параметр picker-a
 Данный метод содержит 4 параметра:
 
 1.Изображение которое будет сохранено
+
 2.Кто вызывается когда запись будет закончена – self – the current view controller
+
 3.Какой метод вызывается - selector
+
 4.Любой контекст
 
 ![Alt-example](https://sun9-84.userapi.com/impg/m65t5kDXS5npbsOxPnuvQhnWRxHq-1pfVN_3Qg/11mQC_jvSRM.jpg?size=936x162&quality=96&sign=676a13f9f3cd69ef5466d9b4de3e4db3&type=album)
