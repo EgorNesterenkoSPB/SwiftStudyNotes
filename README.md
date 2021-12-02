@@ -423,30 +423,46 @@ DC_Store – настроичный файл который сохраняет �
 
 `Import CoreImage`
 
+![Alt-example](https://sun9-72.userapi.com/impg/geAOSUiKEpowcEhkmIArPzJ621GLejXJehSkpw/p4mRdvmNtAc.jpg?size=418x100&quality=96&sign=c865eb83abaa6c4c7e570977ad72c361&type=album)
  
-
 CIContext – захватывает рендеринг
 
 CIFilter – записывает какой филтер пользователь активировал
 
-В методе ViewDidLoad():
+В методе `ViewDidLoad()`:
+ 
+![Alt-example](https://sun9-9.userapi.com/impg/pO-PCFV2O96wr2aQ4POW99r6puyco94U-i1qaQ/d_a21EH7PMA.jpg?size=618x86&quality=96&sign=6d27378be04413fe3d9b92011d143ab7&type=album) 
  
 Филтер принимает sepia tone effect на изображения
 
 Так как в примере идет работа с выбиранием изображения то в методе didFinishPickingMediaWithInfo:
+
+![Alt-example](https://sun9-75.userapi.com/impg/6zpHOsT-QGAE6HGChlmcXhkl5_1jMRap5BKopw/GokQVyz23UM.jpg?size=728x284&quality=96&sign=76c31107dce30370082f21905e8e6b92&type=album)
  
 Создаем CIImage из UiImage и отправляем результат в текущий Core Image Filter используя ключ
 
+![Alt-example](https://sun9-35.userapi.com/impg/VwzTgUlRbwQMgXteBP19OCkee2W8WDsQkcQU-Q/vvReP7AJvGk.jpg?size=936x218&quality=96&sign=f70da32d04a78be75150a89ae1cd2eeb&type=album) 
  
-
 Intensity – параметр picker-a
 
 `.extent` – означает что вся часть изображения будет рендериться
 
 Меняем applyProcessing на выбор несколько редактируемых методов с помощью ключей:
-![image](https://user-images.githubusercontent.com/82050459/144409758-93fa835a-7c2d-407d-9a4e-dd52c52cf897.png)
 
+![Alt-example](https://sun9-35.userapi.com/impg/Da-Dr6vV16BK47-gB_REHqudsbwqFO-joAXopg/NvOBUFKbfL0.jpg?size=736x498&quality=96&sign=1f4bfd3227a7da7214cb954772e5efb0&type=album)
 
 ## UIImageWriteToSavedPhotosAlbum
+
+Записывает изображение в фото альбом
+
+Данный метод содержит 4 параметра:
+
+1.Изображение которое будет сохранено
+2.Кто вызывается когда запись будет закончена – self – the current view controller
+3.Какой метод вызывается - selector
+4.Любой контекст
+
+![Alt-example](https://sun9-84.userapi.com/impg/m65t5kDXS5npbsOxPnuvQhnWRxHq-1pfVN_3Qg/11mQC_jvSRM.jpg?size=936x162&quality=96&sign=676a13f9f3cd69ef5466d9b4de3e4db3&type=album)
+![Alt-example](https://sun9-80.userapi.com/impg/suudCsZwmbnAsk36UHdMP7AnPGxp63tZyMaguA/FkjZBF8KMe4.jpg?size=936x422&quality=96&sign=6f2f584778a7d107e37abe120ed2dcca&type=album)
 
 ## MVC
