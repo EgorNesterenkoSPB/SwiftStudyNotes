@@ -8,6 +8,7 @@
   - [GCD](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#GCD)
   - [CoreImage](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CoreImage)
   - [UIImageWriteToSavedPhotosAlbum](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UIImageWriteToSavedPhotosAlbum)
+  - [Animation](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Animation)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -467,5 +468,9 @@ Intensity – параметр picker-a
 
 ![Alt-example](https://sun9-84.userapi.com/impg/m65t5kDXS5npbsOxPnuvQhnWRxHq-1pfVN_3Qg/11mQC_jvSRM.jpg?size=936x162&quality=96&sign=676a13f9f3cd69ef5466d9b4de3e4db3&type=album)
 ![Alt-example](https://sun9-80.userapi.com/impg/suudCsZwmbnAsk36UHdMP7AnPGxp63tZyMaguA/FkjZBF8KMe4.jpg?size=936x422&quality=96&sign=6f2f584778a7d107e37abe120ed2dcca&type=album)
+
+## Animation
+
+
 
 ## MVC
