@@ -32,7 +32,9 @@
 ## Search_Repeating_Characters_In_String
 
 `func challenge(input:String) -> Bool {
+
 return Set(input).count == input.count
+
 }`
 
 Set не может иметь дубликатов
