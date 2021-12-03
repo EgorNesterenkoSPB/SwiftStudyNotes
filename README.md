@@ -15,6 +15,7 @@
   - [CoreImage](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CoreImage)
   - [UIImageWriteToSavedPhotosAlbum](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UIImageWriteToSavedPhotosAlbum)
   - [Animation](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Animation)
+  - [Segue](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Segue)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -520,5 +521,8 @@ CGAffineTransform – структура которая представляет
 Чтобы добавить пружинитости при анимации объекта: usingSpringWithDamping и initialSpringVelocity
 
 ![Alt-example](https://sun9-57.userapi.com/impg/dizVjnetFMYVeYNyzcQAWO069T1ntqH5Toowow/OxUzu8OPUzg.jpg?size=936x62&quality=96&sign=4973d4abf8b197078feadf0d989dcfb6&type=album)
+
+## Segue
+
 
 ## MVC
