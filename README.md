@@ -4,7 +4,7 @@
 
 - [Algorithms](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Algorithms)
 
-  -[Search repeating characters in String](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Search_Repeating_Characters_In_String)
+  - [Search repeating characters in String](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Search_Repeating_Characters_In_String)
 
 
 - [Swift](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Swift)
