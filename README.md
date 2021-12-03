@@ -524,5 +524,20 @@ CGAffineTransform – структура которая представляет
 
 ## Segue
 
+Чтобы создать переход от одного вью к другому – выбрать вью через control и перетащить на желаемое вью которое будет показываться при переходе – выбрать show – справа установить идентификатор перехода
+В коде написать performSegue:
+
+![Alt-example](https://sun9-42.userapi.com/impg/5l7Zz659dXxxz_lnOTodh0EY0PDReMXJiRBadQ/TO7ivip8mxo.jpg?size=936x76&quality=96&sign=b4880500e137ce37da1f63a4e83795bd&type=album)
+
+Первым аргументом указываем идентификатор который написан на переходе
+
+Чтобы отправить значения от одного вью к другому при переходе – использовать override func prepare :
+
+![Alt-example](https://sun9-44.userapi.com/impg/LWv8NqQ_QVxE52J7c7IJ3eaMUDMVuv_YrptUcg/Ldrr7pfCTx4.jpg?size=936x192&quality=96&sign=a96ed79a5a9025602ac72969b3fffdef&type=album)
+
+Делаем проверку на идентификатор перехода так как на одном vc может быть разные переходы с разными идентификаторами
+Также инициализируем vc как название класса данного vc
+
+
 
 ## MVC
