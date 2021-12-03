@@ -3,6 +3,7 @@
 ![Alt-userD503](https://quickbirdstudios.com/blog/wp-content/uploads/2019/11/Swift-1.jpg)
 
 - [Algorithms](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Algorithms)
+
   -[Search repeating characters in String](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Search_Repeating_Characters_In_String)
 
 
