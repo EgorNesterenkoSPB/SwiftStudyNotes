@@ -20,6 +20,7 @@
   - [Segue](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Segue)
   - [MapKit](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MapKit)
   - [WebKit](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#WebKit)
+  - [Debugging](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Debugging)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -597,5 +598,6 @@ UIProgressView – показывает на UIBarButtonItem прогресс з
 
 ![Alt-example](https://sun9-17.userapi.com/impg/ysdicD4jiT9RBfULXq-tBou0s1Ifu-hCIA_DTg/NE7b0O9AFdU.jpg?size=624x494&quality=96&sign=255a2efad0f1b37036d93fbe6635a3ae&type=album)
 
+## Debugging
 
 ## MVC
