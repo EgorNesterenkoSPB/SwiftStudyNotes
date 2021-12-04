@@ -19,6 +19,7 @@
   - [Animation](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Animation)
   - [Segue](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Segue)
   - [MapKit](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MapKit)
+  - [WebKit](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#WebKit)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -546,5 +547,7 @@ CGAffineTransform – структура которая представляет
 Также инициализируем vc как название класса данного vc
 
 ## MapKit
+
+## WebKit
 
 ## MVC
