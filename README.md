@@ -597,6 +597,5 @@ UIProgressView – показывает на UIBarButtonItem прогресс з
 
 ![Alt-example](https://sun9-17.userapi.com/impg/ysdicD4jiT9RBfULXq-tBou0s1Ifu-hCIA_DTg/NE7b0O9AFdU.jpg?size=624x494&quality=96&sign=255a2efad0f1b37036d93fbe6635a3ae&type=album)
 
-![Alt-example](https://sun9-82.userapi.com/impg/J2PnSGo4pMtQDBo3iks7fInuVfMc4GuYq_mSiA/xpxve_VBLl4.jpg?size=488x408&quality=96&sign=208d371930ffd7bfa08526ec01ceef2b&type=album)
 
 ## MVC
