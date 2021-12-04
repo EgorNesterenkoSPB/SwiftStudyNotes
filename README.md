@@ -625,7 +625,82 @@ Assert – проверки для отладки которые приводя�
 
 ## Safari_extension
 
+Отправляем данные из safari в extension
+
+Создать новый extension – file – new – targer – ios -application extension – action extension
+В Action Type установить Presents User Interface
+
+![Alt-example](https://sun9-1.userapi.com/impg/cL6XM-QahSeAql67pdLoi012ic2m5CKG23r52A/Am4x1m1ezMQ.jpg?size=936x202&quality=96&sign=a988696d716341005c7f92a81aa2ba80&type=album)
+
+Когда создается extension  то extensionContext позволяет контролировать как взаимодействовать с родительским приложением
+
+Inputitems – массив данных который отправляется родительским приложением в extension
+
+Входящие данные содержат массив attachments
+
+В info.plist в NSExtension – NSExtensionAttributes – NSExtensionActivationRule меняем со string на Dictionary – в этом же нажимаем на + и вставляем NSExtensionActivationSupportsWebPageWithMaxCount и справа пишем 1 – это означает что будет получаться только web page, без изображений и других данных
+
+Далее в NSExtensionAttributes нажимаем + и добавляем NSExtensionJavaScriptPreprocessingFile а справа пишем Action – это указывает IOS что когда extension вызывается нужно запустить JavaScript предотварительные файлы c названием Action.js (.js не пишем так как IOS сам вставляет)
+
+![Alt-example](https://sun9-21.userapi.com/impg/4rQK7t7NlfdFBLa-QnMM4xHwarHNue5ZXSxKxg/PqfmV8-Tt2M.jpg?size=798x260&quality=96&sign=4e3dfad002f20c2d56941ab352ac997a&type=album)
+
+Чтобы создать Action – правым кликом кликаем на info.plist который в extensions файле – new file – other – empty
+ 
+![Alt-example](https://sun9-77.userapi.com/impg/qRZdOB7MtMRm2ai_wuY9cPFZSc0QXX6Rl0rqdA/aXBSLIslOuY.jpg?size=936x272&quality=96&sign=24234d549f27c75845096ddf1853dbad&type=album)
+ 
+Первая функция вызывает до того как extension запуститься а другая после
+
+В методе viewDidLoad:
+ 
+![Alt-example](https://sun9-59.userapi.com/impg/jGfC1KrSqWW9RodPJIGiNSRnjyINbUGKr2sHEA/93JLrGG9tDE.jpg?size=936x128&quality=96&sign=e0b14a8e8666df9b762960a7a72aec04&type=album)
+
+NSDictionary – как и dictionary только в нем не объявляется тип и соответственно нельзя узнать какой тип данных хранится
+
+В mainInterface вставляем textView и убираем настройки которые отвечают за корректирования текста :
+ 
+![Alt-example](https://sun9-61.userapi.com/impg/sHTdCO4roEQCmF8xjwcdzT66WEQM5079ou3yjw/j617lqB73m0.jpg?size=492x206&quality=96&sign=8dfd836a32ebbbbef18d958ffff3a000&type=album)
+
+![Alt-example](https://sun9-58.userapi.com/impg/4L53zp6fNGPOQvQfBtnSKulYDuXWJ7BJcW5bgQ/qIiulnCgF5Y.jpg?size=712x520&quality=96&sign=cd5266f16805fec7c09ec0c10b00c35f&type=album)
+
+![Alt-example](https://sun9-29.userapi.com/impg/d40ETu_ylm_9g3P98gAOnTo_KxDkQUfSgXmOfw/CpzPC_N1E2E.jpg?size=660x152&quality=96&sign=bf41020f94ce8d14dded45c2a5c7bd07&type=album)
+
+![Alt-example](https://sun9-36.userapi.com/impg/cdQfjIb0Ie6-UgTiOCLq5J3_bNe1QwFGYghnOg/bcevonyU8WE.jpg?size=936x634&quality=96&sign=d5012a46b856d2796a2bf0a6b525e1ae&type=album)
+
+Данный код нужен для отправки данных обратно в Safari
+
+![Alt-example](https://sun9-53.userapi.com/impg/1zPnze86cP3wUrikKL7k-fBafALeDTFxVvEWag/fBji13d266I.jpg?size=894x174&quality=96&sign=b86e610ece80bf412d90d4a7b4dcd0ed&type=album)
+
+Извлекаем значение customJavaScript из массива параметром передаем его функции eval() которая выполняет любой найденный код
+
+Запускаем extension через safari – заходим например на сайт apple – снизу выбираем значок отправки данных – ищем extension – вводим alert(document.title); - получаем алерт с названим страницы
+
 ## Keyboard
+
+keyboardWillHideNotification – отправляется уведомление когда клавиатура показывается 
+
+keyboardWillChangeFrameNotification – отправляется когда состояние клавиатуры изменяется
+
+addObserver() – зарегестрировать нас как observer для уведомлений, имеет 4 параметра:
+1.объект который будет получать уведомления – self
+2.метод который будет вызываться 
+3.уведомление которое мы хотим получать
+4.объект который мы хотим наблюдать – если установить nil то это означает что не имеет значения кто отправляет уведомления
+ 
+![Alt-example](https://sun9-41.userapi.com/impg/xUCr1GEiee7Pt4Ncowv4JiTi13vGbweYUiTjyw/lx-cQNlAiI0.jpg?size=936x246&quality=96&sign=be20126fa5591a465f49c583f99235a2&type=album)
+
+![Alt-example](https://sun9-63.userapi.com/impg/VuYOwwGY-svTpZ944yKhSFkLRIFP9Lg1t151rg/M_aT3E_a9xc.jpg?size=712x72&quality=96&sign=1f425b5bc4aadf5e0ecebc4c7732658b&type=album)
+
+![Alt-example](https://sun9-9.userapi.com/impg/ntSc3_u0azsiD_YTWkwDUk9FiqvxaquNvZcEnw/iMGJKcuRatI.jpg?size=936x422&quality=96&sign=053696b2a79c4879b577e691be83a5fd&type=album)
+ 
+Notification включает имя уведомления как Dictionary содержащий информацию о конкретном уведомление называющееся userInfo
+
+UIResponder.keyboardFrameEndUserInfoKey – содержит информация о размере клавиатуры после того как она закончила появляться, которая является типом NSValue которая в свою очередь относится к CGRect(данная структура содержит CGPoint и CGSize поэтому это может описать прямоугольник)
+
+Так как в objective – c массивы и словари не могут содержать структуры по типу CGRect то Apple сделала специальный класс NSValue чтобы можно была вставлять их в массивы и словари
+
+Если пользователь находится в альбомном режиме используется метод convert()
+
+contentInset и scrollIndicatorInsets – делают отступ по краям текстового представления даже если ограничения от края да края
 
 ## MVC
 
