@@ -548,6 +548,55 @@ CGAffineTransform – структура которая представляет
 
 ## MapKit
 
+Ищем MapKitView в библиотеке и вставляем, не забываем установить delegate mapView – для этого 
+
+`Import MapKit`
+
+Аннотация – объект который содержит title, subtitle , position которая вызывается CLLocationCoordinate2D – структура которая содержит долготу и широту где аннотация должна быть расположена – для этого подписываем класс на протокол MKAnnotation, при этом класс также должен быть наследовать NSObject
+
+![Alt-example](https://sun9-82.userapi.com/impg/J2PnSGo4pMtQDBo3iks7fInuVfMc4GuYq_mSiA/xpxve_VBLl4.jpg?size=488x408&quality=96&sign=208d371930ffd7bfa08526ec01ceef2b&type=album)
+
+`.addAnnotation()` – добавить аннотацию на карту
+`.addAnnotations([])` -  массив аннотаций
+
+![Alt-example](https://sun9-1.userapi.com/impg/5gEdcdxaMjvUAGzxj7JcxwR56doCIy_E5GFQgQ/TL6hvHimfWE.jpg?size=650x280&quality=96&sign=631ac9b5aab7c480e3a0b2683768e015&type=album)
+
+ViewController с mapView оутлетом должен наследовать MKMapViewDelegate
+
+![Alt-example](https://sun9-10.userapi.com/impg/sYxDPblNCamR619-uy7PJcPCOi7_k4esYPGQBg/EGTrQJYA5gc.jpg?size=836x654&quality=96&sign=a25210bde2985e2d3d025ee4465764ed&type=album)
+
+При нажатие на кнопку аннотации map view отправляет сообщение делегату
+
+Нужно проверить аннотацию на принадлежность к нашему кастомному классу так как при использовании геолокации нужно возвращать nil если аннотацию не принадлежит кастомному классу
+
+Нужно установить переиспользоваемый идентификатор – строка которая будет использоваться для гарантировании что переиспользуется аннотации 
+
+dequeueReusableAnnotationView – используется для экономии памяти, достает неиспользуемые аннотации 
+
+`.canShowCallout` – показывает title и subtitle аннотации при нажатие
+
+`.detailDisclsure` – синий i внутри круга 
+
+Можно изменить тип карты - `.mapType`
+
 ## WebKit
+
+![Alt-example](https://sun9-44.userapi.com/impg/uFW4myulrznJ7XOtwntgmteDDlsCgF0DoswO3g/BLgxuP_vcB0.jpg?size=496x378&quality=96&sign=09136e63a98f3b960d987cd27d4942dc&type=album)
+
+`.allowsBackForwardNavigationGestures` – позволяет пользователям переходить между страницами сайта назад и вперед
+
+Создание кнопки с выбором сайтов и переходом на них:
+
+![Alt-example](https://sun9-50.userapi.com/impg/-zMBl323rXygidcaBfXWycTA8oh6QXOruuZutw/s4FWDd2Kaes.jpg?size=746x480&quality=96&sign=4de9a43dffad3eca5079ee0249f0d0ce&type=album)
+
+Создание refresh кнопки, линии загрузки страницы с помощью UIProgressView и свободного пространства в toolbar:
+ 
+![Alt-example](https://sun9-66.userapi.com/impg/fV6CiBUNEeZtk3AnLbokMFCCM34sTDg2ebI_ZA/jPj_5hXyHfQ.jpg?size=622x492&quality=96&sign=98b4cf3324c38348273f489c228cbf17&type=album)
+
+UIProgressView – показывает на UIBarButtonItem прогресс загрузки страницы
+
+![Alt-example](https://sun9-17.userapi.com/impg/ysdicD4jiT9RBfULXq-tBou0s1Ifu-hCIA_DTg/NE7b0O9AFdU.jpg?size=624x494&quality=96&sign=255a2efad0f1b37036d93fbe6635a3ae&type=album)
+
+![Alt-example](https://sun9-82.userapi.com/impg/J2PnSGo4pMtQDBo3iks7fInuVfMc4GuYq_mSiA/xpxve_VBLl4.jpg?size=488x408&quality=96&sign=208d371930ffd7bfa08526ec01ceef2b&type=album)
 
 ## MVC
