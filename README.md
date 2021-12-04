@@ -22,6 +22,7 @@
   - [WebKit](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#WebKit)
   - [Debugging](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Debugging)
   - [Safari Extension](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Safari_extension)
+  - [Keyboard](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Keyboard)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -623,6 +624,8 @@ Assert – проверки для отладки которые приводя�
 Чтобы увидеть 3D представление экрана – запусить аппку – debug – view debugging – Capture View Hierarchy
 
 ## Safari_extension
+
+## Keyboard
 
 ## MVC
 
