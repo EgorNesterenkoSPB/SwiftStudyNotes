@@ -23,6 +23,7 @@
   - [Debugging](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Debugging)
   - [Safari Extension](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Safari_extension)
   - [Keyboard](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Keyboard)
+  - [UNUserNotificationCenter](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UNUserNotificationCenter)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -701,6 +702,8 @@ UIResponder.keyboardFrameEndUserInfoKey – содержит информаци�
 Если пользователь находится в альбомном режиме используется метод convert()
 
 contentInset и scrollIndicatorInsets – делают отступ по краям текстового представления даже если ограничения от края да края
+
+## UNUserNotificationCenter
 
 ## MVC
 
