@@ -704,6 +704,46 @@ UIResponder.keyboardFrameEndUserInfoKey – содержит информаци�
 contentInset и scrollIndicatorInsets – делают отступ по краям текстового представления даже если ограничения от края да края
 
 ## UNUserNotificationCenter
+Import UserNotifications
+
+Создаем запрос на разрешение использования уведомления:
+
+![Alt-example](https://sun9-54.userapi.com/impg/2mGkbKUC9NcEtjl4hTyKh4COAN6cWKC1Dd9mrw/pqDWxnZR47M.jpg?size=936x70&quality=96&sign=c3c5fb32b8c478ebe0a59b62baec91d8&type=album)
+
+Создаем повторяющиеся уведомления каждое утро в 10:30:
+
+![Alt-example](https://sun9-47.userapi.com/impg/YVlP2F-lAy8oBUEQjciq9oFH8JFtSf-fEzncyg/emSSMvQCp4U.jpg?size=924x208&quality=96&sign=279788e13e984ddedc45ea6b6889a7a4&type=album)
+
+Создаем контент который будет на уведомлении:
+ 
+![Alt-example](https://sun9-37.userapi.com/impg/tfkcIEtI5Upvv7AfVHvwVu-86vytsi8iB1QOKQ/1-FEl24gQYk.jpg?size=742x208&quality=96&sign=19994043bff6459a949e13dd33e34199&type=album)
+
+Делаем запрос:
+
+![Alt-example](https://sun9-23.userapi.com/impg/PG7vUOh6R2dootvV_9Rgqokp0bXg51HnRm-9Eg/vkZBnBWRd5M.jpg?size=936x96&quality=96&sign=efc73752603056136afe9b72ef4afd78&type=album)
+
+Отменить все уведомления которые находятся в ожидании:
+ 
+![Alt-example](https://sun9-85.userapi.com/impg/hOKunDSKh7Ny83zyCZUjPtb8Vmqgzh_50h-WzA/IXpSfYca63E.jpg?size=936x82&quality=96&sign=3a98c76a82be5013617f3135babb0a99&type=album)
+
+Уведомление которое появляется через 5 секунд:
+ 
+![Alt-example](https://sun9-34.userapi.com/impg/QSsqhGeD38vVTzj3MSImdIQmy30HJnIZrngzKg/HJbUicgbCJE.jpg?size=936x66&quality=96&sign=117b581baecd1f503ee215a2d55dc6c8&type=album)
+
+UNNotificationAction – создает индивидуальные кнопки для ответа пользователя на уведомление
+Первый аргумент – уникальная текстовая строка которая отправляется когда кнопка нажимается
+
+UNNotificationCategory – группирует много кнопок вместе под единственным идентификатором
+
+Также класс должен наследовать UNUserNotificationCenterDelegate
+
+Создаем кнопку которая будет снизу при свайпе уведомления влево и нажатия на кнопку View когда девайс заблокирован:
+
+![Alt-example](https://sun9-16.userapi.com/impg/lzrBrOPslhbyCTzoxk__Sdktkn2t4cdyDK9O2g/nK104jv-OEw.jpg?size=936x240&quality=96&sign=d57e754b2b3f38fb4fc4ae644d652920&type=album)
+
+UNNotificationDefaultActionIdentifier – отправляется когда пользователь смахивает уведомление чтобы разблокировать свое устройство и запустить приложение
+
+![Alt-example](https://sun9-42.userapi.com/impg/eSR4FJEO1kKApNh3pgjlj6xrDMu_OS3bOLcySQ/wyTBPsE8RWs.jpg?size=936x448&quality=96&sign=5295ce8a37f6885251404400dbb3cce5&type=album)
 
 ## MVC
 
