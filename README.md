@@ -26,6 +26,7 @@
   - [UITextField](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UITextField)
   - [UNUserNotificationCenter](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UNUserNotificationCenter)
   - [Protocols](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Protocols)
+  - [Delegate Design Patterns](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Delegate_Design_Patterns)
   - [Create custom color / vector image switched w/ dark mode](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create_custom_color_or_vector_image_switched_with_dark_mode)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
@@ -756,8 +757,109 @@ UNNotificationDefaultActionIdentifier – отправляется когда п
 
 ## Protocols
 
+- перечень требований которым должен удовлетворять тип данных соответствующий ему
+Также содержат реализацию, перечень свойств, методов и сабскриптов которые должны быть реализованы в объектном типе
+
+![Alt-example](https://sun9-67.userapi.com/impg/JeBqN6i7Os88pToQRL5jo3VUyEbMMNm5s7-WhA/dL9i35KHSmw.jpg?size=346x100&quality=96&sign=2715f008ec565d8962610db73b5b119f&type=album)
+ 
+![Alt-example](https://sun9-58.userapi.com/impg/1aL51_HCcQXzhSUo4zPvNOT0j2sIeAmRvdkB7w/eqVmQk6DCns.jpg?size=814x486&quality=96&sign=ca84953e1b1b64cce2b87759eb8d1f72&type=album)
+
+Свойства в протоколе:
+ 
+![Alt-example](https://sun9-63.userapi.com/impg/ApTreVGTlpVqvNAl1LZguVversBnK6BmWW4WKQ/UlPGHO_ghCw.jpg?size=754x154&quality=96&sign=8692b4779cab92ffe5393c85801e70ec&type=album)
+
+![Alt-example](https://sun9-79.userapi.com/impg/X54N7htidOhaMhK6rgITIoB2zwKgcRJOeBVRsQ/q5Fj1C6xlA4.jpg?size=936x296&quality=96&sign=9d8c287427d4d6201bd2e28a7ba72ec8&type=album)
+
+![Alt-example](https://sun9-5.userapi.com/impg/V_czHams_eP4hOPLst8LaTyaOEqQQ_OZx-qEbA/Gw1MQSiNWFA.jpg?size=936x310&quality=96&sign=dfc08a28889f970f44d3c569f567ce3e&type=album)
+ 
+
+Тип обязан реализовать все что прописано в протоке при этом реализация не ограничивается свойствами протокола:
+ 
+![Alt-example](https://sun9-85.userapi.com/impg/p9Ur3n1En8ScrJ7tTCZbfWYxhPOYDqqHikbIYA/mq1VhubrUJw.jpg?size=936x310&quality=96&sign=18661a3e3b04fe11484ec0396f7277ba&type=album)
+
+Чтобы обязательно реализовать свойства типа используют static:
+ 
+![Alt-example](https://sun9-8.userapi.com/impg/actWSTvXfH0lZ8c8uLGzyJhVBJj18K5QIJBIpA/7bY-pNsajQo.jpg?size=592x100&quality=96&sign=36a90267f42d3a5f6062a2b9f878542f&type=album)
+
+![Alt-example](https://sun9-75.userapi.com/impg/KEnB0kCGj4XcWoeyghHjnD82ZilLARNrt45gaA/2SfspZ0S8xs.jpg?size=482x154&quality=96&sign=37a098a016f8dc679f81feafc4971f62&type=album)
+
+Методы в протоколе:
+Для требования реализации метода -static а для изменяющего метода -  mutating
+
+![Alt-example](https://sun9-30.userapi.com/impg/aiShy8vYHxn9LzK1OwL9utB3y66Xoo1-0swsaQ/j0tAdiIQqUs.jpg?size=776x164&quality=96&sign=e8fd46b73f955c6042741d90188a22e0&type=album) 
+ 
+![Alt-example](https://sun9-11.userapi.com/impg/4x99JH3dj9nJX66lpAtBlaAwrC-EtbkXJglprQ/I6NHadHfxXI.jpg?size=868x568&quality=96&sign=06be4d29a56bb1db6f469d7d0ffc1ace&type=album)
+
+![Alt-example](https://sun9-79.userapi.com/impg/tgwiYfDepswvAk-yolKSleNU6JRx0VMUV-JJrw/o_WzJvaRSKE.jpg?size=646x170&quality=96&sign=02102a7f18807d94c227a78f9a7ba7d5&type=album)
+
+Инициализация в протоколах:
+Перед объявлением инициализатора протокола в классе необходимо указывать – required – но также в классе могут быть свои инициализаторы
+ 
+![Alt-example](https://sun9-34.userapi.com/impg/E5wUwK14CY9NSpJRy8mswVpI6LjaQgGUTyt-qQ/awNcRiYT1bU.jpg?size=454x292&quality=96&sign=37b1381205371e4917af3b44aa937e10&type=album)
+
+Протокол может выступать в качестве типа данных для значений
+Протокол может указывать на множество типов:
+
+![Alt-example](https://sun9-79.userapi.com/impg/F2kLOcv6KZWfn7vF3EOS2qoMcPXWs4IGIYG90Q/H7QFmKsTCTM.jpg?size=652x88&quality=96&sign=2db26c99f28392053421c27730d73b0d&type=album)
+
+![Alt-example](https://sun9-8.userapi.com/impg/SI915KRmFKY3cFrKtewfpHXGTPVVjKMjnAGXIg/y9J-r07-A38.jpg?size=284x74&quality=96&sign=1f95eff5413b6d4c133c35a212fc7757&type=album)
+
+В данном примере функция принимает любое значение типа T где тип T должен соответствовать протоколу данному
+
+Перебор элементов коллекции с помощью as для поиска значения определенного типа протокола:
+
+![Alt-example](https://sun9-81.userapi.com/impg/P4LQenRHQ2Vvu6vARue9AaCLLL2XMDBX-r7PgA/WeiFOwd7ZNs.jpg?size=334x86&quality=96&sign=e5b4b33fb95f76b0297a3af69b12a01a&type=album)
+ 
+![Alt-example](https://sun9-49.userapi.com/impg/1W-IvwFZPO76_0PMoKdXQzOpG4-EalKmXjPtkQ/5R5CzRCCdeE.jpg?size=340x406&quality=96&sign=8b0c954218a398938a256646eacfd89b&type=album)
+
+![Alt-example](https://sun9-32.userapi.com/impg/yecjpvhzZwuMuAWTAJorJ_8LVUPBEwP4Hi5TTA/SZdxVmw-EsA.jpg?size=428x174&quality=96&sign=03862cc50d61a0b1cbec0bc40e5a8faf&type=album)
+
+Проверка соответствия типа при помощи is :
+
+![Alt-example](https://sun9-59.userapi.com/impg/7BwZbxs31EsB-iOYSnDRx5faU7tZLyxj5-5CAQ/PzxAQtRYl_Y.jpg?size=410x318&quality=96&sign=1d9c6454b800722e1d4b875ea00274fb&type=album)
+
+Наследование протоколов:
+Протокол может наследовать один или более других протоколов при этом все требования будут добавлены в него и также можно добавлять дополнительные требования 
+Если значения принимает тип протокола то оно должно выполнить все требования всех протоколов которые были наследованы 
+ 
+![Alt-example](https://sun9-28.userapi.com/impg/QX0ahl11FOYHkflps9JLoOu1nWc83yu1Huoq-A/GZHmQPDuIeE.jpg?size=658x588&quality=96&sign=6a002dd8703c24017016dbe61d6d74d9&type=album)
+
+Чтобы ограничить протокол только на классы – написать class после имени протокола через двоеточие после пишутся родительские протокол
+
+![Alt-example](https://sun9-64.userapi.com/impg/wSNCWHXa1hUPnRlHVL9OuHRZtPAAAnEQ1To3pQ/ysYvZ9cfD9w.jpg?size=614x136&quality=96&sign=6d966a7b4902f8f801507fe5dc8d6b26&type=album)
+
+Композиция протоколов:
+Комбинация нескольких протоколов чтобы требуемый тип данных соответствовал множеству протоколов
+
+![Alt-example](https://sun9-86.userapi.com/impg/JfX_Z5FZmxWBQCqoDXsw_PG_7wesbBo__JzT2Q/p3dDWpoe92A.jpg?size=408x102&quality=96&sign=7f341b3d5e1e26d91985fea611d01f0f&type=album)
+
+![Alt-example](https://sun9-60.userapi.com/impg/NolEWH8TmfM-3t_yt0Ho7espkNc-Mwh78NnX1Q/IwByJ0Oibo0.jpg?size=936x594&quality=96&sign=8aea976daedb0a0d21d88bd91f147cb7&type=album)
+
+## Delegate_Design_Patterns
+
+## API
 
 ## UITextField
+
+Чтобы изменить тип клавиатуры который будет выдвигаться при нажатие – справа в text input traits выбираем нужные настройки 
+
+Чтобы пользователь при вводе не видел символы например для пароля – справа в secure text entry ставим галочку
+
+Чтобы кнопка search на клавиатуре делала какие – то действия – класс должен наследовать протокол UITextFieldDelegate, также:
+
+![Alt-example](https://sun9-19.userapi.com/impg/wF9OD4y922MrgW4a7L1kJnpWjIbOYMmwiWramg/8mhHWow8i4M.jpg?size=840x190&quality=96&sign=2b62fd60e8b2bfccbcdd55ab1e5c4260&type=album)
+
+И только затем можем использовать метод textFieldShouldReturn в котором пишутся действия при нажатие на кпопку search на клавиатуре
+
+Чтобы клавиатура скрывалась – searchTextField.endEditing(true)
+
+Чтобы автоматически текст удалялся после скрывания клавиатуры:
+ 
+![Alt-example](https://sun9-84.userapi.com/impg/Zf5QZa22DY9lPk2cLDJjxOBQek1le_W5TVLWOQ/Wkc6VIShNJI.jpg?size=774x98&quality=96&sign=4407bb7e31d2c6e8f59345a6ceb8ab07&type=album)
+
+Метод textFieldShouldEndEditing позволяет пользователю не закрывать клавиатуру если он ничего не написал:
+
+![Alt-example](https://sun9-5.userapi.com/impg/dqW9wLwNqdgFnEwg2oYZd7oVBmmEXHaAN62BWw/2wqZbvPeuYE.jpg?size=936x266&quality=96&sign=db648bee814783a92db121e7065a1a50&type=album)
 
 ## MVC
 
