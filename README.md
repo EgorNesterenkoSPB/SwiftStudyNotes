@@ -24,7 +24,7 @@
   - [Safari Extension](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Safari_extension)
   - [Keyboard](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Keyboard)
   - [UNUserNotificationCenter](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UNUserNotificationCenter)
-  - [Create custom color / vector image switched w/ dark mode](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create_custom_color_/_vector_image_switched_w/_dark_mode)
+  - [Create custom color / vector image switched w/ dark mode](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create_custom_color_or_vector_image_switched_with_dark_mode)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -746,7 +746,7 @@ UNNotificationDefaultActionIdentifier – отправляется когда п
 
 ![Alt-example](https://sun9-42.userapi.com/impg/eSR4FJEO1kKApNh3pgjlj6xrDMu_OS3bOLcySQ/wyTBPsE8RWs.jpg?size=936x448&quality=96&sign=5295ce8a37f6885251404400dbb3cce5&type=album)
 
-## Create_custom_color_/_vector_image_switched_w/_dark_mode
+## Create_custom_color_or_vector_image_switched_with_dark_mode
 
 Чтобы кастомный цвет менялся также как и системный цвет при смене темы например со светлой на черную – в assets нажать снизу на + и выбрать color set – справа в appearances выбрать any, light, dark – выбрать цвета для всех 3 тем 
 
