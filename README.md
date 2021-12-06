@@ -25,6 +25,7 @@
   - [Keyboard](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Keyboard)
   - [UITextField](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UITextField)
   - [UNUserNotificationCenter](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UNUserNotificationCenter)
+  - [Protocols](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Protocols)
   - [Create custom color / vector image switched w/ dark mode](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create_custom_color_or_vector_image_switched_with_dark_mode)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
@@ -752,6 +753,9 @@ UNNotificationDefaultActionIdentifier – отправляется когда п
 Чтобы кастомный цвет менялся также как и системный цвет при смене темы например со светлой на черную – в assets нажать снизу на + и выбрать color set – справа в appearances выбрать any, light, dark – выбрать цвета для всех 3 тем 
 
 Чтобы установить векторное пдф изображение – в assets добавляем данное изображение в пдф и справа в resizing ставим галочку – в scales выбираем Single Scale -–в appearances выбираем any light dark чтобы установить разные изображения для разных режимов
+
+## Protocols
+
 
 ## UITextField
 
