@@ -23,6 +23,7 @@
   - [Debugging](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Debugging)
   - [Safari Extension](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Safari_extension)
   - [Keyboard](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Keyboard)
+  - [UITextField](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UITextField)
   - [UNUserNotificationCenter](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UNUserNotificationCenter)
   - [Create custom color / vector image switched w/ dark mode](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create_custom_color_or_vector_image_switched_with_dark_mode)
 
@@ -752,6 +753,7 @@ UNNotificationDefaultActionIdentifier – отправляется когда п
 
 Чтобы установить векторное пдф изображение – в assets добавляем данное изображение в пдф и справа в resizing ставим галочку – в scales выбираем Single Scale -–в appearances выбираем any light dark чтобы установить разные изображения для разных режимов
 
+## UITextField
 
 ## MVC
 
