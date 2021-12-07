@@ -9,7 +9,7 @@
   - [Search repeating characters in String](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Search_Repeating_Characters_In_String)
   - [Time complexity](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Time_complexity)
   - [Space complexity and Sort method](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Space_complexity)
-  - [Data structures](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Data structures)
+  - [Data structures](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Data_structures)
     - [Stack](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Stack)
 
 
