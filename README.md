@@ -29,6 +29,7 @@
   - [Delegate Design Patterns](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Delegate_Design_Patterns)
   - [Create custom color / vector image switched w/ dark mode](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create_custom_color_or_vector_image_switched_with_dark_mode)
   - [API](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#API)
+  - [Map](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Map)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -865,4 +866,6 @@ UNNotificationDefaultActionIdentifier – отправляется когда п
 ## MVC
 
 ## API
+
+## Map
 
