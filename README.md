@@ -54,13 +54,80 @@
 
 ## Time_complexity
 
+-	это мера времени, необходимого для запуска алгоритма по мере увеличения размера входных данных
+
+1.Constant time algorithm – имеет одинаковое время независимо от размера входящих данных, O(1)
+
+![Alt-example](https://sun9-64.userapi.com/impg/3gW9olrJqTcNjBQv_iuzUIe6_ckjrmMdj7i90Q/qONhVv7Cg68.jpg?size=338x254&quality=96&sign=58a60e7fcdff2a66406b8c1505e47748&type=album)
+
+![Alt-example](https://sun9-85.userapi.com/impg/su38GgMo9PpRKVPwtkmA1ZwXzrlZZVBs6JV9qg/hosQUzVoMKA.jpg?size=362x142&quality=96&sign=4c079b74bc8a7e4b7e7cb1a07e92b18b&type=album)
+
+2.Linear time  - размер данных увеличивается следовательно время выполнения увеличивается, O(n)
+
+![Alt-example](https://sun9-72.userapi.com/impg/ux5eYkn0ghVYthD0opDx1iTv42Yj3-fQJZI5mA/DJhCfiRbEzs.jpg?size=394x304&quality=96&sign=fe590ffe76a35d002a14f8ecb0a7aa5f&type=album) 
+
+![Alt-example](https://sun9-82.userapi.com/impg/vvtyOYA824k5YPTsfAYY5tcEqHIZ-c_kKMLkwA/JnIseopgTl4.jpg?size=408x124&quality=96&sign=43f9a92232f6252bf12eece4e10a5322&type=album)
+
+3.  Quadratic time – временная сложность относится к алгоритму который требует времени пропорционально квадрату входного размера, O(n2)
+ 
+![Alt-example](https://sun9-69.userapi.com/impg/Fi2bnq6Yy9eC0V7Aa3mwwE648BEZlf_CmRDU_g/q8OPxan61N8.jpg?size=424x192&quality=96&sign=89f1b1228798fcea6baba2e6bbc78613&type=album)
+ 
+![Alt-example](https://sun9-12.userapi.com/impg/6U_oC25l2wT33UdnPHxVH4QQpJrd_z3xOtWM2g/BKBgN1PBbEM.jpg?size=376x262&quality=96&sign=52ce68187bb611026189e73d06202c4c&type=album)
+
+4. Logarithmic time – алгоритм который может отбросить половину требуемых сопоставлений, O(log n)
+
+Массив отсортирован:
+ 
+![Alt-example](https://sun9-26.userapi.com/impg/BuZ10dLu8-JlOcL8zDB9W1nbYWO0S9V_YHfwBQ/gyX3cCbS7P4.jpg?size=696x144&quality=96&sign=45ec56fa3683e55fab03ade361d65e2b&type=album) 
+
+![Alt-example](https://sun9-44.userapi.com/impg/W8ISZ2XZ2bJ49NVQ6DcCMs8Q_dBBlSRJct4k8A/In7UJNrEvuc.jpg?size=510x300&quality=96&sign=21949c1201a1d027d61ac3ce1d5b553f&type=album)
+
+![Alt-example](https://sun9-3.userapi.com/impg/H38hYrVDxmjuS51V-aa0X4bGVgxPROy4DpW8wg/QpQi_0HIMGc.jpg?size=376x272&quality=96&sign=bb14cac923368a2ca6ef83759fdd54cf&type=album)
+ 
+5.  Quasilinear time – 0(n log n)
+
+![Alt-example](https://sun9-83.userapi.com/impg/CYEseOwpuZuyzXFCSXcSGQbANWPewb0JUVFeCw/BAgF-09La7M.jpg?size=310x218&quality=96&sign=3a80a8b617fd002e4a7ab264ddef80fe&type=album)
+
+Пример – метод sort
+
 ## Space_complexity
+
+Мера ресурсов(память) необходимая для выполнения алгоритмов
+
+![Alt-example](https://sun9-50.userapi.com/impg/csCAxjdrEF9mfPzHTKkB-95tkDP_hMKO-Rq5gg/_HnKt0gy0tA.jpg?size=440x160&quality=96&sign=47ebc8bc42b17223d6d910b846b57dae&type=album)
+ 
+Алгоритм выше создает новый массив с одинаковым размером тогда space complexity – O(n)
+
+![Alt-example](https://sun9-51.userapi.com/impg/aZUhv_3mqdrRZrFGy_szgkUo21Sfuxk3yCzL7g/2bcJayV6zjU.jpg?size=640x500&quality=96&sign=3d27442061503cdffb1aa58272ead207&type=album)
+ 
+Алгоритм выше выделяет память только для отслеживания переменных поэтому space complexity – O(1)
 
 ## Data_structures
 
+Поиск конкретного элемента в фиксированном массиве имеет константное время также как и метод append не зависит от размера массива
+
+Если вставлять новый элемент в массив уже с максимальной вместимостью, то копируются все новые элементы в новый и больший контейнер памяти которые автоматически делается в два раза больше прошлого
+
+Вставка и поиск элемента в словаре имеет константное время
+
 ## Stack
 
+Push – добавлять элемент на верх стэка
+Pop – удалять элемент с верху стэка
 
+Это и есть LIFO(last in first out)
+
+![Alt-example](https://sun9-32.userapi.com/impg/y3HlSBwfvWxC_pQshtol7ykozjrYyIcagefpWQ/j90nO_CdCGU.jpg?size=644x614&quality=96&sign=b5cc83ad16377f83055c005feadec54e&type=album)
+
+![Alt-example](https://sun9-63.userapi.com/impg/gEsWwGgVALrUWNU-0ffEM0PLBtjmnxf2DeDasQ/SHyE0MK9-qY.jpg?size=362x202&quality=96&sign=277458cfa941cab02c8a73c69561500d&type=album)
+
+Также можно добавить в инициализацию storage для уже имеющегося массива:
+
+![Alt-example](https://sun9-35.userapi.com/impg/kcDgR8IGM0euHPNR_CygCkWRSX8f_IPvFodrJw/MCU0nDtCcxQ.jpg?size=630x114&quality=96&sign=6609fed7ca92b8d66bef102273e719a7&type=album)
+
+![Alt-example](https://sun9-3.userapi.com/impg/vDS-KDLGafcviUP1CC7mbhTK8gBne7J_x-zmLw/hOAeEBoFWmw.jpg?size=448x164&quality=96&sign=149bf17b93f319179bce30f02082606b&type=album)
+
+![Alt-example](https://sun9-27.userapi.com/impg/X7G7FBS9GH8SvvVbfyj9-4Psi4X5UW14wMIgzg/_NpjNU0LiMo.jpg?size=144x218&quality=96&sign=bf67c26f93f0dfece2bf01f191be2538&type=album)
 
 ## Search_Repeating_Characters_In_String
 
