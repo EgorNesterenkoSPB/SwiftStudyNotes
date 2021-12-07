@@ -28,6 +28,7 @@
   - [Protocols](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Protocols)
   - [Delegate Design Patterns](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Delegate_Design_Patterns)
   - [Create custom color / vector image switched w/ dark mode](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create_custom_color_or_vector_image_switched_with_dark_mode)
+  - [API](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#API)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -39,7 +40,6 @@
   - [MVVM](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVVM)
   - [Add AppDelegate and SceneDelegate](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Add_AppDelegate_and_SceneDelegate)
   - [Create one-time welcome view](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create_one-time_welcome_view)
-  - [API](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#API)
 
 ## Machine_Learning
 
