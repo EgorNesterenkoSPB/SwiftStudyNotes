@@ -39,6 +39,7 @@
   - [MVVM](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVVM)
   - [Add AppDelegate and SceneDelegate](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Add_AppDelegate_and_SceneDelegate)
   - [Create one-time welcome view](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create_one-time_welcome_view)
+  - [API](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#API)
 
 ## Machine_Learning
 
@@ -862,4 +863,6 @@ UNNotificationDefaultActionIdentifier – отправляется когда п
 ![Alt-example](https://sun9-5.userapi.com/impg/dqW9wLwNqdgFnEwg2oYZd7oVBmmEXHaAN62BWw/2wqZbvPeuYE.jpg?size=936x266&quality=96&sign=db648bee814783a92db121e7065a1a50&type=album)
 
 ## MVC
+
+## API
 
