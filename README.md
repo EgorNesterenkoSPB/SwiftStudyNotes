@@ -11,6 +11,7 @@
   - [Space complexity and Sort method](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Space_complexity)
   - [Data structures](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Data_structures)
     - [Stack](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Stack)
+    - [Linked List](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Linked_List)
 
 
 - [Swift](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Swift)
@@ -128,6 +129,8 @@ Pop – удалять элемент с верху стэка
 ![Alt-example](https://sun9-3.userapi.com/impg/vDS-KDLGafcviUP1CC7mbhTK8gBne7J_x-zmLw/hOAeEBoFWmw.jpg?size=448x164&quality=96&sign=149bf17b93f319179bce30f02082606b&type=album)
 
 ![Alt-example](https://sun9-27.userapi.com/impg/X7G7FBS9GH8SvvVbfyj9-4Psi4X5UW14wMIgzg/_NpjNU0LiMo.jpg?size=144x218&quality=96&sign=bf67c26f93f0dfece2bf01f191be2538&type=album)
+
+## Linked_List
 
 ## Search_Repeating_Characters_In_String
 
