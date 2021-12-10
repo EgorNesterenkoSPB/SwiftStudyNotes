@@ -1031,6 +1031,22 @@ ViewController:
 
 ## API
 
+Application programming interface – устанавливает функции, команды, протоколы, объекты которые можно использовать для установки по
+
+![Alt-example](https://sun9-73.userapi.com/impg/MkOODQV6lfoesb3T9SG8idT8OaZtEkvdzPMAkg/7aZLUWzVn6M.jpg?size=596x262&quality=96&sign=c133bb347bb5289ed550178ad177a947&type=album)
+
+![Alt-example](https://sun9-12.userapi.com/impg/VpIjCW9UEqPo2kAMSbwy6F0JLBgkd0Fr2aZpYQ/TkQcLkSJYyY.jpg?size=516x316&quality=96&sign=40bc1847c1c3fc6c23d60b62608b1d9b&type=album)
+
+![Alt-example](https://sun9-55.userapi.com/impg/-dh4BKHOy8dGXDcmYNX4sF87aJCl2d7iB4UtTw/PrhSa1nmKSY.jpg?size=936x110&quality=96&sign=48f6f782a5131e155b241e3dbd5b2d19&type=album)
+
+![Alt-example](https://sun9-20.userapi.com/impg/eIraTWpCx2wJ_Cx3PPJ0a_kVhoAuAlq3UeSDfw/e7Gz4jRj58k.jpg?size=780x540&quality=96&sign=3d58047555986d3b89e9bfc69bd47165&type=album)
+
+Создание структуры для принятия данных с JSON:
+
+![Alt-example](https://sun9-84.userapi.com/impg/b-S960XBWVkSU-jHGXn8Wx5uc-i1g5sl-_Dxzg/ATarDXEWutQ.jpg?size=344x398&quality=96&sign=5a5c0d3700bc5b0e9f61a6069e073f1a&type=album)
+
+![Alt-example](https://sun9-69.userapi.com/impg/jYC5IN9n2fhEqU8snuIRYHPcBeqKbkKMgK-PJQ/iEfYk8hjK5U.jpg?size=370x406&quality=96&sign=80f74e25227c03e4c2d120f9d734bf24&type=album)
+
 ## Map
 
 ## Code_Snippet
