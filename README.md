@@ -950,7 +950,9 @@ UNNotificationDefaultActionIdentifier – отправляется когда п
 ## MVC
 
 Controller – берет информацию из Model и трансформирует ее во View
+
 В Model находится логика
+
 В View находится расположение отображения объектов
 
 ![Alt-example](https://sun9-88.userapi.com/impg/eA-pjADQolEzIKfMrD6G3OY9XV0tuGldVsuLjQ/LPkKwpI2vco.jpg?size=514x330&quality=96&sign=55f5c9d47c906a863d3fe29cd6164314&type=album)
