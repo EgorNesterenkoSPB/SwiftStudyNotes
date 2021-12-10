@@ -35,6 +35,7 @@
   - [Create custom color / vector image switched w/ dark mode](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create_custom_color_or_vector_image_switched_with_dark_mode)
   - [API](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#API)
   - [Map](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Map)
+  - [Code Snippet](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Code_Snippet)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -1031,3 +1032,10 @@ ViewController:
 
 ## Map
 
+## Code_Snippet
+
+Чтобы создать шаблон кода - ЛКМ на код - Create Code Snippet
+
+<#текст#>  - текст который будет отображаться при вставки данного шаблона кода
+
+В completion пишем триггерное слово при котором будет выдавать данный шаблон
