@@ -949,6 +949,44 @@ UNNotificationDefaultActionIdentifier – отправляется когда п
 
 ## MVC
 
+Controller – берет информацию из Model и трансформирует ее во View
+В Model находится логика
+В View находится расположение отображения объектов
+
+![Alt-example](https://sun9-88.userapi.com/impg/eA-pjADQolEzIKfMrD6G3OY9XV0tuGldVsuLjQ/LPkKwpI2vco.jpg?size=514x330&quality=96&sign=55f5c9d47c906a863d3fe29cd6164314&type=album)
+
+![Alt-example](https://sun9-18.userapi.com/impg/bc3vJmK8F2i79FXZaBoIT8Aa-txyUn8q0CIxlg/IMtnCqN7b9k.jpg?size=446x270&quality=96&sign=6eb92d7a273a24ff39b75835cc3a87d1&type=album)
+
+![Alt-example](https://sun9-76.userapi.com/impg/FPfk3NT75B6HwS_MpNQCyJODnKzyuXwfh84Xnw/0uU0mTs_Unk.jpg?size=552x288&quality=96&sign=f2a27e6b73e609519f9ab5c39aeb8461&type=album)
+
+Models – структуры и простые классы
+Views – отображают визуальные элементы, сабклассы UIView
+Controllers – координирует между models и views, сабклассы UIViewContoller
+
+Распорядок по папкам:
+
+![Alt-example](https://sun9-3.userapi.com/impg/CsrtpF_lQOmSSwjyZDdAMEsu29CSEmA_9m4pwg/wMESJqkt0zA.jpg?size=260x430&quality=96&sign=2883a6bab9c89e89667fc2e18a151d91&type=album)
+
+Model:
+
+![Alt-example](https://sun9-13.userapi.com/impg/wmh4XTqQX7gUGqEf-cYLRm8JQKmxnrrhBdFlyw/3CgMPy9ENs0.jpg?size=360x142&quality=96&sign=6681f158078b940142fb3fde052cb63b&type=album)
+
+![Alt-example](https://sun9-80.userapi.com/impg/bfYybSp2hQw_n2vcQrthI4ezxD-nFJpY3TRZIg/hIXhsluw_ps.jpg?size=412x114&quality=96&sign=08f8de53f9a6d9ef293eaeff43d2b4e8&type=album)
+
+![Alt-example](https://sun9-78.userapi.com/impg/F_nM72pGFVHXCKYEauyQlTLtV9AgOgVlYwC6_A/oX4Xh-UTzsA.jpg?size=440x98&quality=96&sign=713a62bc2b942a518526a689e3cac3b3&type=album)
+
+![Alt-example](https://sun9-45.userapi.com/impg/2qqPhO_8yuX3uw2GXrPusnE9fDljqRMNj2gR5A/JU7yf7F2KYI.jpg?size=682x252&quality=96&sign=ca9a9ef79ddfa5786caa11805247fc59&type=album)
+
+View:
+
+![Alt-example](https://sun9-68.userapi.com/impg/ehgQGte2bHEqSXqa_NPXONJvUQxfsFyYjs5Mhg/QR_mF2UGXZY.jpg?size=644x218&quality=96&sign=177e9d3a625bd642011aabcd3367a9b3&type=album)
+
+ViewController:
+
+![Alt-example](https://sun9-10.userapi.com/impg/TTR9oSdb8sBDyIFDp2P81Ad4bIg6GKcWXkM0Hw/5drNmW0JL4E.jpg?size=634x754&quality=96&sign=d69ac48808a1aa1fabaaffbca5a696b9&type=album)
+
+![Alt-example](https://sun9-14.userapi.com/impg/VarH2I-n-Y45O6nFr69-U0Dvz9L3fFEHnNtWmQ/C8ku6LYEXC8.jpg?size=618x282&quality=96&sign=123b78577fe3ce0c5bc9fc6f06a3fb2d&type=album)
+
 ## API
 
 ## Map
