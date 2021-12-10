@@ -923,6 +923,42 @@ UNNotificationDefaultActionIdentifier – отправляется когда п
 
 ## Delegate_Design_Patterns
 
+Схема делегирования полномочий позволяет объекту использовать другой объект “помощника” для предоставления данных или исполнения задачи а не для выполнения самой задачи!
+
+![Alt-example](https://sun9-6.userapi.com/impg/hK76Q7f6jBRDsE0OqBQ7HHeWzuRT71TzqUAvuQ/Iiug9y7OJgQ.jpg?size=876x172&quality=96&sign=50c7eecde3adfafd8727ceaabaa38c94&type=album)
+
+Первый это delegating object, который имеет делегата
+
+Делегат рассматривается как слабое свойство позволяющее избежать сохранения цикла когда делегируемый объект сохраняет делегата, который в свою очередь сохраняет делегируемый объект
+
+Delegate protocol определяет методы которые может или должен применять делегат
+
+Делегат является объектом помощником который реализует  delegate protocol
+
+Любой объект реализующий протокол может быть использован в качестве делегата
+
+![Alt-example](https://sun9-63.userapi.com/impg/19UEqfyi1_K1IhuGxxW8CEv1KhXMdtwe65RbKQ/oj_bHXF3KuM.jpg?size=660x330&quality=96&sign=2665581dc53fe78fcbf160f76d40d5a6&type=album)
+
+![Alt-example](https://sun9-32.userapi.com/impg/8r32n5sJDgyStYGt151wEgF-OcDsHODp2HBhDw/3rFVaOwkhW0.jpg?size=610x620&quality=96&sign=f736879cd6ecdea14fd83335de8e857f&type=album)
+
+![Alt-example](https://sun9-77.userapi.com/impg/HbmYvYsP-VaRQYAmnHmfFBoQCepbppUzgS8N2w/iOW7bv5UnYU.jpg?size=694x128&quality=96&sign=e97434a0651c064fcaa342525a03944f&type=album)
+
+Пример с переходом и передачей данных:!
+
+![Alt-example](https://sun9-1.userapi.com/impg/MDjiXzmJeb0Ms1OrXwD1aK2vdSLO6i9Avoqjvg/OIUIOfEf3Q4.jpg?size=726x444&quality=96&sign=5a18d2f92be20e7d2a5d98509160fb04&type=album)
+
+![Alt-example](https://sun9-48.userapi.com/impg/C_1XjYpagiJIgIXBdw31f5EIMz8oZhlB1iNg3Q/i3sKyILwESM.jpg?size=824x396&quality=96&sign=debabf7fa199ab3ed734fce52833dc1d&type=album)
+
+В SelectQuestionGroupViewController:!
+
+![Alt-example](https://sun9-47.userapi.com/impg/IP3PGKm49y0Grs7pKz7uWKiuI-Y1GWrwGvOrPQ/C93tEpSy1ws.jpg?size=704x384&quality=96&sign=553c0edd6e991df1937208bb00d47ad8&type=album)
+
+В QuestionViewController:!
+
+![Alt-example](https://sun9-41.userapi.com/impg/p43m7Xfa05kHWH3Ln_UIELoGbYFZls8O0qBEtA/A0va_2Flros.jpg?size=664x432&quality=96&sign=7979cb3c98e7fdb7826410fba6e68659&type=album)
+
+![Alt-example](https://sun9-76.userapi.com/impg/NSzOQECuA4URs7hgfXOZJKGKh4Vk1wbhX9QiPQ/_F2UyQ2Sqo8.jpg?size=754x218&quality=96&sign=0fcc50c29cdf00ad2cc35429b4d9d883&type=album)
+
 ## API
 
 ## UITextField
