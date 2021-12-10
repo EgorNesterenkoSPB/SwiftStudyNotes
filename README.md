@@ -1056,3 +1056,26 @@ Application programming interface – устанавливает функции,
 В completion пишем триггерное слово при котором будет выдавать данный шаблон
 
 ## Core_Location
+
+`Import CoreLocation`
+
+`Let locationManager = CLLocationManager()`
+
+Делаем запрос на доступ к геолокации в методе ViewDidLoad:
+
+`locationManager.delegate = self`
+
+`locationManager.requestWhenInUseAuthorization()`
+
+`locationManager.requestLocation()`
+
+В info.plist добавляем Privacy – Location in Use Usage Description и в столбце Value можем написать текст который пользователь будет видеть при алерте запроса доступа
+
+Чтобы установить свои координаты на симулятор – Debug – Location – Custom Location
+
+Получаем последние координаты:
+
+![Alt-example]()
+
+`locationManager.stopUpdatingLocation()` – прекратить обновлять координаты пользователя
+
