@@ -923,7 +923,7 @@ UNNotificationDefaultActionIdentifier – отправляется когда п
 
 ## Delegate_Design_Patterns
 
-Схема делегирования полномочий позволяет объекту использовать другой объект “помощника” для предоставления данных или исполнения задачи а не для выполнения самой задачи!
+Схема делегирования полномочий позволяет объекту использовать другой объект “помощника” для предоставления данных или исполнения задачи а не для выполнения самой задачи
 
 ![Alt-example](https://sun9-6.userapi.com/impg/hK76Q7f6jBRDsE0OqBQ7HHeWzuRT71TzqUAvuQ/Iiug9y7OJgQ.jpg?size=876x172&quality=96&sign=50c7eecde3adfafd8727ceaabaa38c94&type=album)
 
@@ -943,17 +943,17 @@ Delegate protocol определяет методы которые может и
 
 ![Alt-example](https://sun9-77.userapi.com/impg/HbmYvYsP-VaRQYAmnHmfFBoQCepbppUzgS8N2w/iOW7bv5UnYU.jpg?size=694x128&quality=96&sign=e97434a0651c064fcaa342525a03944f&type=album)
 
-Пример с переходом и передачей данных:!
+Пример с переходом и передачей данных:
 
 ![Alt-example](https://sun9-1.userapi.com/impg/MDjiXzmJeb0Ms1OrXwD1aK2vdSLO6i9Avoqjvg/OIUIOfEf3Q4.jpg?size=726x444&quality=96&sign=5a18d2f92be20e7d2a5d98509160fb04&type=album)
 
 ![Alt-example](https://sun9-48.userapi.com/impg/C_1XjYpagiJIgIXBdw31f5EIMz8oZhlB1iNg3Q/i3sKyILwESM.jpg?size=824x396&quality=96&sign=debabf7fa199ab3ed734fce52833dc1d&type=album)
 
-В SelectQuestionGroupViewController:!
+В SelectQuestionGroupViewController:
 
 ![Alt-example](https://sun9-47.userapi.com/impg/IP3PGKm49y0Grs7pKz7uWKiuI-Y1GWrwGvOrPQ/C93tEpSy1ws.jpg?size=704x384&quality=96&sign=553c0edd6e991df1937208bb00d47ad8&type=album)
 
-В QuestionViewController:!
+В QuestionViewController:
 
 ![Alt-example](https://sun9-41.userapi.com/impg/p43m7Xfa05kHWH3Ln_UIELoGbYFZls8O0qBEtA/A0va_2Flros.jpg?size=664x432&quality=96&sign=7979cb3c98e7fdb7826410fba6e68659&type=album)
 
