@@ -961,8 +961,6 @@ Delegate protocol определяет методы которые может и
 
 ![Alt-example](https://sun9-76.userapi.com/impg/NSzOQECuA4URs7hgfXOZJKGKh4Vk1wbhX9QiPQ/_F2UyQ2Sqo8.jpg?size=754x218&quality=96&sign=0fcc50c29cdf00ad2cc35429b4d9d883&type=album)
 
-## API
-
 ## UITextField
 
 Чтобы изменить тип клавиатуры который будет выдвигаться при нажатие – справа в text input traits выбираем нужные настройки 
