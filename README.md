@@ -962,7 +962,9 @@ Controller – берет информацию из Model и трансформ�
 ![Alt-example](https://sun9-76.userapi.com/impg/FPfk3NT75B6HwS_MpNQCyJODnKzyuXwfh84Xnw/0uU0mTs_Unk.jpg?size=552x288&quality=96&sign=f2a27e6b73e609519f9ab5c39aeb8461&type=album)
 
 Models – структуры и простые классы
+
 Views – отображают визуальные элементы, сабклассы UIView
+
 Controllers – координирует между models и views, сабклассы UIViewContoller
 
 Распорядок по папкам:
