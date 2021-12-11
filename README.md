@@ -37,6 +37,7 @@
   - [Map](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Map)
   - [Code Snippet](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Code_Snippet)
   - [Core Location](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Core_Location)
+  - [Picker](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Picker)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -1079,3 +1080,4 @@ Application programming interface – устанавливает функции,
 
 `locationManager.stopUpdatingLocation()` – прекратить обновлять координаты пользователя
 
+## Picker
