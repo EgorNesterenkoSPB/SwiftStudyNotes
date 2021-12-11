@@ -956,6 +956,12 @@ Delegate protocol определяет методы которые может и
 
 ![Alt-example](https://sun9-47.userapi.com/impg/IP3PGKm49y0Grs7pKz7uWKiuI-Y1GWrwGvOrPQ/C93tEpSy1ws.jpg?size=704x384&quality=96&sign=553c0edd6e991df1937208bb00d47ad8&type=album)
 
+В QuestionViewController:
+
+![Alt-example](https://sun9-41.userapi.com/impg/p43m7Xfa05kHWH3Ln_UIELoGbYFZls8O0qBEtA/A0va_2Flros.jpg?size=664x432&quality=96&sign=7979cb3c98e7fdb7826410fba6e68659&type=album)
+
+![Alt-example](https://sun9-76.userapi.com/impg/NSzOQECuA4URs7hgfXOZJKGKh4Vk1wbhX9QiPQ/_F2UyQ2Sqo8.jpg?size=754x218&quality=96&sign=0fcc50c29cdf00ad2cc35429b4d9d883&type=album)
+
 Пример с делегированием ошибки:
 
 ![Alt-example](https://sun9-74.userapi.com/impg/aaw_9Tdk8wbdbWbpcFkzpbLNYBzvCugAjjJAdw/lFC92xpbXdI.jpg?size=936x212&quality=96&sign=317398aa54799c59d0e98ea5204ad0bc&type=album)
@@ -965,12 +971,6 @@ Delegate protocol определяет методы которые может и
 ![Alt-example](https://sun9-87.userapi.com/impg/SSp333uuwXiTkWvK0FWWnCTwONAi78FkYxwmPg/AAus7p8nUvU.jpg?size=936x306&quality=96&sign=768f0fb0cef6e3a1f146f89aa0aad3c4&type=album)
 
 ![Alt-example](https://sun9-40.userapi.com/impg/hwgQAzIyYY-CvztvKcpqaX_tYbvwlVpEvigWsw/Yzndj29fW9A.jpg?size=720x424&quality=96&sign=75e1510de6ee57fe663b96651d2ccb24&type=album)
-
-В QuestionViewController:
-
-![Alt-example](https://sun9-41.userapi.com/impg/p43m7Xfa05kHWH3Ln_UIELoGbYFZls8O0qBEtA/A0va_2Flros.jpg?size=664x432&quality=96&sign=7979cb3c98e7fdb7826410fba6e68659&type=album)
-
-![Alt-example](https://sun9-76.userapi.com/impg/NSzOQECuA4URs7hgfXOZJKGKh4Vk1wbhX9QiPQ/_F2UyQ2Sqo8.jpg?size=754x218&quality=96&sign=0fcc50c29cdf00ad2cc35429b4d9d883&type=album)
 
 ## UITextField
 
