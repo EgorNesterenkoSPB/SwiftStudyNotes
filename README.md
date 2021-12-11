@@ -38,6 +38,8 @@
   - [Code Snippet](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Code_Snippet)
   - [Core Location](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Core_Location)
   - [Picker](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Picker)
+  - [Strategy Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Strategy_Pattern)
+  - [Singleton Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Singleton_Pattern)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -1103,3 +1105,7 @@ Application programming interface – устанавливает функции,
 Метод forComponent возвращает значение которое будет отображаться при прокручивание
 
 Метод didSelectRow позволяет работать с значением которое выбрано
+
+## Strategy_Pattern
+
+## Singleton_Pattern
