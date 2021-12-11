@@ -956,6 +956,16 @@ Delegate protocol определяет методы которые может и
 
 ![Alt-example](https://sun9-47.userapi.com/impg/IP3PGKm49y0Grs7pKz7uWKiuI-Y1GWrwGvOrPQ/C93tEpSy1ws.jpg?size=704x384&quality=96&sign=553c0edd6e991df1937208bb00d47ad8&type=album)
 
+Пример с делегированием ошибки:
+
+![Alt-example](https://sun9-74.userapi.com/impg/aaw_9Tdk8wbdbWbpcFkzpbLNYBzvCugAjjJAdw/lFC92xpbXdI.jpg?size=936x212&quality=96&sign=317398aa54799c59d0e98ea5204ad0bc&type=album)
+
+![Alt-example](https://sun9-80.userapi.com/impg/Kw37eZIgZiUH0S_uriZKog8Zl6WbVGjWuBrOKw/TIUZy5xCEks.jpg?size=754x230&quality=96&sign=5b73e2f6f1e077dcff4454d0cb55b7a4&type=album)
+
+![Alt-example](https://sun9-87.userapi.com/impg/SSp333uuwXiTkWvK0FWWnCTwONAi78FkYxwmPg/AAus7p8nUvU.jpg?size=936x306&quality=96&sign=768f0fb0cef6e3a1f146f89aa0aad3c4&type=album)
+
+![Alt-example](https://sun9-40.userapi.com/impg/hwgQAzIyYY-CvztvKcpqaX_tYbvwlVpEvigWsw/Yzndj29fW9A.jpg?size=720x424&quality=96&sign=75e1510de6ee57fe663b96651d2ccb24&type=album)
+
 В QuestionViewController:
 
 ![Alt-example](https://sun9-41.userapi.com/impg/p43m7Xfa05kHWH3Ln_UIELoGbYFZls8O0qBEtA/A0va_2Flros.jpg?size=664x432&quality=96&sign=7979cb3c98e7fdb7826410fba6e68659&type=album)
@@ -1076,8 +1086,20 @@ Application programming interface – устанавливает функции,
 
 Получаем последние координаты:
 
-![Alt-example]()
+![Alt-example](https://sun9-72.userapi.com/impg/8OA5qrZB7g_W2zcuKhRSo1nBodCevOLKX5Z62w/8-aFOkokEQo.jpg?size=936x148&quality=96&sign=1e487bbf603b94a8a4be456198c48178&type=album)
 
 `locationManager.stopUpdatingLocation()` – прекратить обновлять координаты пользователя
 
 ## Picker
+
+![Alt-example](https://sun9-11.userapi.com/impg/MAH8btWc5aMhZbwNvKqP64z2ApTDnh1tWUvuMw/1uwjRYb_9GU.jpg?size=678x150&quality=96&sign=3571a02c5b428fff6d42d2f5b2586f07&type=album)
+
+![Alt-example](https://sun9-67.userapi.com/impg/yEEyLdD4TLt9jZA1X1LykVGPcELkmga8qdElgg/OqrYyfQNWxE.jpg?size=832x58&quality=96&sign=79cca82ea140645c1462eb2cf64b884b&type=album)
+
+![Alt-example](https://sun9-13.userapi.com/impg/Dus8rp4CyNmdhrG9T8UJnymFVUk3_09T93NbDA/sSLFV8hukDA.jpg?size=936x360&quality=96&sign=b0ea6195d0ce19952033fa144bb06405&type=album)
+
+Метод с numberOfRowsInComponent возвращает количество данных которые будут прокручиваться
+
+Метод forComponent возвращает значение которое будет отображаться при прокручивание
+
+Метод didSelectRow позволяет работать с значением которое выбрано
