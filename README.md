@@ -41,6 +41,7 @@
   - [Strategy Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Strategy_Pattern)
   - [Singleton Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Singleton_Pattern)
   - [Animation Welcome View with Loops](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Animation_Welcome_View_with_Loops)
+  - [CocoaPods](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CocoaPods)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -52,7 +53,6 @@
   - [MVVM](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVVM)
   - [Add AppDelegate and SceneDelegate](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Add_AppDelegate_and_SceneDelegate)
   - [Create one-time welcome view](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create_one-time_welcome_view)
-  - [CocoaPods](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CocoaPods)
 
 ## Machine_Learning
 
