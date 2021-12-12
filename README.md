@@ -52,6 +52,7 @@
   - [MVVM](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVVM)
   - [Add AppDelegate and SceneDelegate](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Add_AppDelegate_and_SceneDelegate)
   - [Create one-time welcome view](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Create_one-time_welcome_view)
+  - [CocoaPods](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CocoaPods)
 
 ## Machine_Learning
 
@@ -1155,3 +1156,5 @@ Strategies – объекты который принимают strategy protoco
 ## Singleton_Pattern
 
 ## Animation_Welcome_View_with_Loops
+
+## CocoaPods
