@@ -42,6 +42,7 @@
   - [Singleton Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Singleton_Pattern)
   - [Animation Welcome View with Loops](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Animation_Welcome_View_with_Loops)
   - [CocoaPods](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CocoaPods)
+  - [Firebase](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Firebase)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -1196,3 +1197,5 @@ Strategies – объекты который принимают strategy protoco
 При -pie возникающем предупреждение – зайти в Build Settings –  ищем position - в Pods сменить на Yes 
 
 Чтобы удалить POD файл – в ruby файле удалить строку где мы добавляем pod файл – в терминале`pod install`
+
+## Firebase
