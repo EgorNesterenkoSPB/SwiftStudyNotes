@@ -1108,4 +1108,47 @@ Application programming interface – устанавливает функции,
 
 ## Strategy_Pattern
 
+Данный шаблон определяет семейство взаимозаменяемых объектов которые могут быть установлены или переключены во время выполнения
+
+![Alt-example](https://sun9-37.userapi.com/impg/6KL90aCUXlVSe7siqSPiUKYaSk3bwxLK1IKIjA/afRGqHTmG0I.jpg?size=452x340&quality=96&sign=ab6dafc89ae5694788a6327a7743cf23&type=album)
+
+Object using a Strategy – view controller когда шаблон успользуется в разработке, но он может быть любым объектом который нуждается в взаимозаменяемом поведение
+
+Strategy protocol – определяет методы которые каждая стратегия должна выполнять
+
+Strategies – объекты который принимают strategy protocol
+
+Используется данный паттерн когда два или более разных поведения которые взаимозаменяемы
+
+
+Пример связан с кодом в разделе Delegate Design Pattern, где можно посмотреть участки кода с Question и QuestionGroup:
+
+Создаем проктол:
+
+![Alt-example](https://sun9-57.userapi.com/impg/7MMurgbfI8M50QP3VnUyTuwhGAmEUpIMtWwBOQ/fm1ykMxa6tM.jpg?size=758x328&quality=96&sign=101253f601dced2f67d8f34df921355c&type=album)
+
+Создаем рандомную стратегию которая будет появляться:
+
+![Alt-example](https://sun9-68.userapi.com/impg/EKqqjnSz_TE7vckR2NuG_G1XzQ8iyEuRIi52oA/og9K_9tc6Fs.jpg?size=768x1060&quality=96&sign=a3cbd12bb8ba9b2a9fd51cc1b8e2a110&type=album)
+
+![Alt-example](https://sun9-33.userapi.com/impg/56tZl-svJqBIrt3pRxTMU-yab-XPoBFYPIqc0A/b_eYgUQidzg.jpg?size=744x220&quality=96&sign=bd54dc2bd1081346f0e01536cd0fcc51&type=album)
+
+![Alt-example](https://sun9-81.userapi.com/impg/xVTcLjICHA676T4eEzmeOdjt73IUkv2mqTPt_g/EVdFkbro9tQ.jpg?size=832x238&quality=96&sign=d615f25846a167dcd91e9d68a582f279&type=album)
+
+![Alt-example](https://sun9-20.userapi.com/impg/DYp4XI3mVFu8sxFIyLR5nqjPgZXhib8x7A-SIA/uSeWlc3VrUc.jpg?size=742x278&quality=96&sign=be49d59010fd93ae4a903ed28afccdfc&type=album)
+
+![Alt-example](https://sun9-16.userapi.com/impg/ri3ZXwjO79rRXXWhm74p1jsdV2nZ7GV1Qb4rdA/omdaajYH6Co.jpg?size=732x160&quality=96&sign=6c27904d5df7b58ae2d6f9d8e71b852a&type=album)
+
+![Alt-example](https://sun9-58.userapi.com/impg/UfnuQnoC8QJW37yuf1nyuU2WBh2mBWe-mLUr8Q/BBf3QIKFKSc.jpg?size=792x370&quality=96&sign=7831080286a32a11e1f86db71cd1fd02&type=album)
+
+![Alt-example](https://sun9-34.userapi.com/impg/Nii1eAr5v0Cm8TyVRDb8w5P1TIA9zcf7zsN97Q/fiTry-d5UjY.jpg?size=636x248&quality=96&sign=02037c68d734515c3c88234d1a88bcf5&type=album)
+
+![Alt-example](https://sun9-29.userapi.com/impg/1xCZmmlfHFdWSdkNH9jdqKm3lQk4nlzbbsJf-w/9hKfQ2TSirI.jpg?size=660x168&quality=96&sign=5a9bd9f5c4b64008a113845f1ca28d97&type=album)
+
+![Alt-example](https://sun9-88.userapi.com/impg/7nvdggaNtCPQwYEkCBjwNhRHvRDcHF3tJJwLXg/ZP3z1RbpWHo.jpg?size=646x164&quality=96&sign=5f4bb2b42fcbe091a0b5fa694f997f08&type=album)
+
+![Alt-example](https://sun9-85.userapi.com/impg/SsLyXjMQFF7Y3lpKbMllHjWv-4UWEBOeeyDmOA/9URVUgvs8iI.jpg?size=646x208&quality=96&sign=8efd0ac57c183c5dc41a436d2f5e5103&type=album)
+
+![Alt-example](https://sun9-81.userapi.com/impg/qII0Ic9FjeAKL-6k9KCI7dzXhwxrhViBBaekWQ/5iN6BeHx85o.jpg?size=696x482&quality=96&sign=f6b792a8803bb4efc6122fed4e6096f5&type=album)
+
 ## Singleton_Pattern
