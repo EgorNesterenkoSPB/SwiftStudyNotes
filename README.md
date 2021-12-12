@@ -40,6 +40,7 @@
   - [Picker](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Picker)
   - [Strategy Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Strategy_Pattern)
   - [Singleton Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Singleton_Pattern)
+  - [Animation Welcome View with Loops](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Animation_Welcome_View_with_Loops)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -1152,3 +1153,5 @@ Strategies – объекты который принимают strategy protoco
 ![Alt-example](https://sun9-81.userapi.com/impg/qII0Ic9FjeAKL-6k9KCI7dzXhwxrhViBBaekWQ/5iN6BeHx85o.jpg?size=696x482&quality=96&sign=f6b792a8803bb4efc6122fed4e6096f5&type=album)
 
 ## Singleton_Pattern
+
+## Animation_Welcome_View_with_Loops
