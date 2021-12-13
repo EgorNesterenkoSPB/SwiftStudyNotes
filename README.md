@@ -43,6 +43,7 @@
   - [Animation Welcome View with Loops](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Animation_Welcome_View_with_Loops)
   - [CocoaPods](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CocoaPods)
   - [Firebase](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Firebase)
+  - [Constants File](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Constants_File)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -1199,3 +1200,5 @@ Strategies – объекты который принимают strategy protoco
 Чтобы удалить POD файл – в ruby файле удалить строку где мы добавляем pod файл – в терминале`pod install`
 
 ## Firebase
+
+## Constants_File
