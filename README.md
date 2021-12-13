@@ -45,6 +45,7 @@
   - [Firebase](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Firebase)
   - [Constants File](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Constants_File)
   - [TableView](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#TableView)
+  - [Type Casting](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Type_Casting)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -1205,3 +1206,5 @@ Strategies – объекты который принимают strategy protoco
 ## Constants_File
 
 ## TableView
+
+## Type_Casting
