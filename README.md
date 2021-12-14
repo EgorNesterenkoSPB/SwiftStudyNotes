@@ -1394,3 +1394,28 @@ Any позволяет добавлять любые типы элементов
 AnyObject позволяет работать только с объектами класса
 
 ## Lifecycle
+
+1.`viewDidLoad` – вызывается один раз когда view создано
+
+2.Затем вызывается `viewWillAppear` в котором скрываются или показываются UI компоненты
+
+3.`viewDidAppear()` – вызывается когда view появилось на экране
+
+4.`viewwillDissappear()` – вызывается когда view скрывается 
+
+5.`viewdidDisappear()` – вызывается когда view уже скрылось
+
+При переходе из одного вью на другой:
+ 
+![Alt-example](https://sun9-23.userapi.com/impg/beh-cZTq_P-W93MK8qv4vkuDH1K9F-5KcMtR0Q/t47BV28A3PI.jpg?size=338x188&quality=96&sign=58f7f6744a8c30bd13c6347438f2cd2c&type=album)
+
+Вызовы функций в appDelegate:
+
+![Alt-example](https://sun9-38.userapi.com/impg/B-0ROjmyJYq-Tpl2gXOF40CpQQJUOLmIShnWUA/4gT9kht9WUY.jpg?size=576x170&quality=96&sign=e92cfc24efd50889c22e2da3f6e907b0&type=album)
+
+Метод `sceneWillResignActive ()` вызывается когда пользователь скрывает приложение при открытие закладок открытых приложений
+
+Метод `sceneDidEnterBackground ()` вызывается когда пользователь скрывает приложение
+
+Метод `sceneDidDisconnect()` и `application ( _: didDiscardSceneSessions: )` вызывается когда пользователь полностью закрыл приложение
+
