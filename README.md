@@ -1162,7 +1162,45 @@ Strategies – объекты который принимают strategy protoco
 
 ## Singleton_Pattern
 
+Данный паттерн ограничивает класс только одним экземпляром
+
+Каждая ссылка на класс относится к основному экземпляру 
+
+![Alt-example](https://sun9-18.userapi.com/impg/U13vdLGIMbfGVtufu-jgY49cAj0yR6a5VN852w/jIeIceWqN10.jpg?size=364x284&quality=96&sign=aae73a3e122fed789e37fdc398800388&type=album) 
+
+Данный шаблон используется если есть несколько экземпляров класса и это может вызвать проблемы 
+
+`public class MySingleton {`
+
+  // 1
+  
+  `static let shared = MySingleton()`
+  
+  // 2
+  
+ ` private init() { }`
+  
+} 
+
+// 3 
+
+`let mySingleton = MySingleton.shared`
+
+// 4
+
+// let mySingleton2 = MySingleton()
+
+1 – объявляем общедоступное статическое свойство называемое общим которое является единственным экземпляром 
+
+2 – помечается как приватное во избежание создания дополнительных случаев
+
+3 – объявляем singleton экземпляр
+
+4 – при еще одном объявлении будет ошибка
+
 ## Animation_Welcome_View_with_Loops
+
+![Alt-example](https://sun9-17.userapi.com/impg/bzJI8j0UqNgngDqU-dG83Ny9ePDZpSenlu68RA/1vxsrDnPu2I.jpg?size=936x334&quality=96&sign=a041f293ccc09f2cc8c92c179dafc2ea&type=album)
 
 ## CocoaPods
 
@@ -1206,8 +1244,136 @@ Strategies – объекты который принимают strategy protoco
 
 ## Firebase
 
+Go to console – add project
+
+Добавляем в ruby pod инструменты которые нужны – сохраняем – закрываем xcode – в терминале в директории проекта pod install
+
+![Alt-example](https://sun9-84.userapi.com/impg/03yfOAurwZaEZoEgqdiU979Zslx76SU9IpL2_Q/rOM4ptj6DbE.jpg?size=410x206&quality=96&sign=e76c0d770ae0b959c309da3e883b06e7&type=album) 
+
+В AppDelegate:
+
+![Alt-example](https://sun9-71.userapi.com/impg/h6zO7mGVAAjrugvFSpLdWykgo6rCvQR7NAkPgg/MEyaTgXQqY0.jpg?size=994x168&quality=96&sign=b8322262b55c3a6fdf09dfda7f079ff8&type=album) 
+
+Регистрация:
+
+![Alt-example](https://sun9-67.userapi.com/impg/FT4z-Md2hUNiQUXSzOerQ19FbSnldorWJA-bZQ/0r1np2S-bqM.jpg?size=1006x192&quality=96&sign=4575f6469c042804a9bfdf6d37b4633f&type=album) 
+
+Вход:
+
+![Alt-example](https://sun9-52.userapi.com/impg/77PAXh83BDzdbEMozihrGCSy8AnVCfWUsHBJLw/rxos8DrDGuM.jpg?size=936x236&quality=96&sign=5d71686b03fa58de13dc3f3804deeaf0&type=album) 
+
+Выход:
+
+![Alt-example](https://sun9-16.userapi.com/impg/KKPG1lvkKXVrmU9UU53ziPxu8LZGhrCwYrcYxA/nibCQjEhKc4.jpg?size=936x330&quality=96&sign=c2da411878a06f36205c922dddd968e3&type=album) 
+
+Отправляем данные в Firebase:
+
+В файле AppDelegate:
+
+![Alt-example](https://sun9-21.userapi.com/impg/eln9E8Uv4TYeyCXs4oPLj93g6CZaZJfyJKvI6Q/U6sanzIQLTc.jpg?size=528x124&quality=96&sign=1eaa9635a0e9f99a55d862010c31361c&type=album) 
+
+В ViewController:
+ 
+![Alt-example](https://sun9-62.userapi.com/impg/rF73Ou3qV7UKoLG-aOzRT41oYehKdb265nFmjQ/B4ZOiRCam5I.jpg?size=462x44&quality=96&sign=9c400d8178b093626986491a52a838eb&type=album) 
+
+![Alt-example](https://sun9-88.userapi.com/impg/yCdyumxB9dnucqWYKYvXsSoUeLLxvs_Oc-cYfA/qFc7GW5730M.jpg?size=1008x214&quality=96&sign=a49ffc0dc1ff0dd7103706d16acbd271&type=album) 
+ 
+![Alt-example](https://sun9-15.userapi.com/impg/0BYe7LiR3G51_6jqz7oiX6sdpSED4xYCzPQczA/nVijb2l-WQM.jpg?size=360x306&quality=96&sign=4922151f77ac3cad852a27cc3597639e&type=album) 
+
+Получаем данные:
+
+![Alt-example](https://sun9-37.userapi.com/impg/Y4eZiBYQ0i-WE6X6doGpwzBkfB_5GKoClW3i-A/qESZss4RDHE.jpg?size=994x414&quality=96&sign=8edd9ac8afabc14ae29214f033984061&type=album) 
+
+Читаем данные из базы данных все время:
+
+![Alt-example](https://sun9-22.userapi.com/impg/Fsuhhw6IHYm2JH6Y2CxvK0JXr-OMcz8GYEiFLw/d7MqZw0jy0Y.jpg?size=936x82&quality=96&sign=8b77b5c403a97eeca2a5659710f53962&type=album) 
+
+Все тоже самое как и в пункте где получаем данные но теперь нужно все время обновлять массив сообщений чтобы они не дублировались 
+
+Чтобы сортировать сообщения по времени:
+
+![Alt-example](https://sun9-62.userapi.com/impg/ZwoHP6jOUGBZ1X1XESDECyb8IcDNzif6O4CG8A/zu6XxR4QCWY.jpg?size=936x76&quality=96&sign=02b986ac99a9f231f388ff431bae4d3a&type=album) 
+
+![Alt-example](https://sun9-85.userapi.com/impg/Qs2mgf0Luyo73zR07n7VxqCvxpQ_bP8pfDIzMQ/P7naTCSEyF8.jpg?size=944x40&quality=96&sign=13bb7e0ff1ff4cf9bd829809d0d6e57b&type=album)
+
+Делаем базу данных просматриваемой и редактируемой:
+
+![Alt-example](https://sun9-2.userapi.com/impg/5ZyAtQaqCNmwOO4nglDGdBCM7hBju_S9-P34Qw/lzF8c8ZpfEQ.jpg?size=664x350&quality=96&sign=79326cec57593d1aa356b0fb08009f48&type=album) 
+
 ## Constants_File
+
+Данный файл создается чтобы создать структуру в которой хранятся static значения например как название идентификатора перехода, чтобы при дальнейшем его написание не было ошибок 
+
+![Alt-example](https://sun9-87.userapi.com/impg/OEBPsWOARncR09egZecznxfcOBLhbpUnDI9ncg/_SIdmcyGs_I.jpg?size=576x152&quality=96&sign=cb3cde02cdb326ca07dc35bc0b324eda&type=album)
+
+![Alt-example](https://sun9-41.userapi.com/impg/DV9d4eKnCsWBQhAN30_WTKyia_8dMVWa04FEsw/0PymCwPilG0.jpg?size=930x48&quality=96&sign=d93c9ead7daf77858a186aaad045e7af&type=album)
 
 ## TableView
 
+Чтобы отключить разделительные черты между ячейками – выбрать table view – справа в Separator выбрать none
+
+![Alt-example](https://sun9-10.userapi.com/impg/HcGe-onjJq-ZBxD4Krqy6X2J6sfdR3unQu2pOg/dNBLPoxykdc.jpg?size=820x276&quality=96&sign=b8f47560c9b2cbc5ecbbd8bbb02d3ce0&type=album)
+
+Также можно реализовать метод при выборе ячейке что может происходить – для этого делаем extension где данный класс принимает протокол UITableViewDelegate  и в методе viewDidLoad класса пишем:
+
+TableView.delegate = self 
+
+Теперь в extension можем реализовывать метод didSelectRow
+
+Чтобы убрать выделение ячейки при нажатие на нее – выбрать ячейку в main storyboard – справа в selection поставить none 
+
+Создание кастомной ячейки:
+
+New File – Cocoa touch class – Subclass: UITableViewCell  и не забыть поставить галочку на Also create XIB file
+
+Не забываем при завершение визуальной кастомизации ячейки указать справа ее идентификатор
+
+В классе который имеет table view:
+
+![Alt-example](https://sun9-47.userapi.com/impg/Et_qNYDy2imyExYDubUiwROJkbpP2Fm1mtW98A/kY6T09066Zw.jpg?size=936x62&quality=96&sign=7b7274509185e5904978d6c451718925&type=album)
+
+Где cellNibName – имя xib файла 
+
+Чтобы в ячейке текст в label автоматически увеличивался с увеличением текста – выбрать label – справ в lines поставить 0
+
+Также при созданной кастомной ячейке можно удалить Reusable cell в table view
+
+Чтобы кастомноя ячейка не выделялась как выбранная – в xib файлу выбрать ReusableCell – справа снять галочку с User interaction Enabled
+
+![Alt-example](https://sun9-63.userapi.com/impg/dthnOt0xvte3sWIMBXXAsKySfDXI__ng5sDOLw/WVJoVgnR6ek.jpg?size=936x248&quality=96&sign=15632a0f71dc784840261aded46d706f&type=album)
+
+Чтобы новые ячейки автоматически показывались из под клавиатуры при добавлении:
+
+![Alt-example](https://sun9-4.userapi.com/impg/vBgo9iK-1y5f9TxH2uNeO6-QhBGMdN4KgKDVfQ/0VH3CoqZlT8.jpg?size=936x66&quality=96&sign=62accc876fe79a8ff88ec8f1e74da566&type=album)
+ 
+Где messages массив элементов который располагается в ячейках
+
 ## Type_Casting
+
+Is соотносит элемент с типом
+
+![Alt-example](https://sun9-78.userapi.com/impg/y3Rt_B8oRCeENyENtJ2V0PqkVOKYaZ8bTF09kA/UCoboYZTakg.jpg?size=538x688&quality=96&sign=735f9f7d37d359c8de1ecd1d96f607ca&type=album)
+
+Где массив neighbours имеет тип Animal так как содержит элементы у которых общих класс есть родитель
+
+![Alt-example](https://sun9-73.userapi.com/impg/U3jGIefXDkRo2oySmTXtVko9C5kQ-eaKQIGQjg/SspGzJVJw9g.jpg?size=474x142&quality=96&sign=d512bb7d4ab7bd407bbf7b3e37584b1b&type=album)
+
+![Alt-example](https://sun9-20.userapi.com/impg/oQMI5vXtNOq52CwFizjoR_bQJZMc1AfapgEU6A/zYyCZ3O76Sw.jpg?size=860x64&quality=96&sign=4ccc86b29682a3a9ea39890e1989473a&type=album)
+
+As! Делает элемент messageCell subclass MessageCell
+
+![Alt-example](https://sun9-82.userapi.com/impg/xGLEP3fMXA9bGMSdOmFbWYh3kUIFdwed10CwZg/qtZSeOEZ_ps.jpg?size=936x142&quality=96&sign=9648db37b2d828eeb3090d0cd7bede61&type=album)
+
+As? Используется если не уверены что данные могут быть соответствовать данному типу
+
+![Alt-example](https://sun9-69.userapi.com/impg/vYsm0hSCyqWqU6YdIxHrslGN52FVgYGwgYKYvg/YVuSFwysGn0.jpg?size=936x46&quality=96&sign=cfc720c49b0e6a36f95f9c47ae57c584&type=album)
+
+As используется чтобы повысить объект до суперкласса
+
+![Alt-example](https://sun9-11.userapi.com/impg/2C5sX0qwDkdNAwANuXzuUO1i3aK9RjwWAB5eBA/G8iDUtnDgUA.jpg?size=416x398&quality=96&sign=31f63cbfffd9469cd233382c919a3751&type=album)
+
+![Alt-example](https://sun9-66.userapi.com/impg/vJ55ZdMiDk3se030QR27_10VclxIxjz6U8waDw/lMjlCCMiP8c.jpg?size=594x168&quality=96&sign=f5cc1e7eeaf311d83e91b686c54a2add&type=album)
+
+Any позволяет добавлять любые типы элементов
+
+AnyObject позволяет работать только с объектами класса
