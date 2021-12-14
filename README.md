@@ -47,7 +47,7 @@
   - [Constants File](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Constants_File)
   - [TableView](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#TableView)
   - [Type Casting](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Type_Casting)
-  - [Lifecycle](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Lifecycle)
+  - [Lifecycle](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#LifecycleSwift)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -1393,7 +1393,7 @@ Any позволяет добавлять любые типы элементов
 
 AnyObject позволяет работать только с объектами класса
 
-## Lifecycle
+## LifecycleSwift
 
 1.`viewDidLoad` – вызывается один раз когда view создано
 
