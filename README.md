@@ -47,6 +47,7 @@
   - [Constants File](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Constants_File)
   - [TableView](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#TableView)
   - [Type Casting](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Type_Casting)
+  - [Lifecycle](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Lifecycle)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
