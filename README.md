@@ -48,6 +48,8 @@
   - [TableView](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#TableView)
   - [Type Casting](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Type_Casting)
   - [Lifecycle](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#LifecycleSwift)
+  - [Memento Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Memento_Pattern)
+  - [Observer Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Observer_Pattern)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -1419,3 +1421,6 @@ AnyObject позволяет работать только с объектами
 
 Метод `sceneDidDisconnect()` и `application ( _: didDiscardSceneSessions: )` вызывается когда пользователь полностью закрыл приложение
 
+## Memento_Pattern
+
+## Observer_Pattern
