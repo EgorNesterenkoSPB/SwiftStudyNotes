@@ -55,6 +55,8 @@
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
   - [LifeCycle](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#LifeCycle)
+  - [API](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#API)
+  - [WebKit](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#WebKit)
   - [AVAudioPlayer](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#AVAudioPlayer)
   - [Lottie live animations](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Lottie_Animations)
   - [Local Notification](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Local_Notification)
@@ -158,6 +160,38 @@ Set не может иметь дубликатов
 
 
 # SwiftUI
+
+## WebKit
+
+![Alt-example](https://sun9-26.userapi.com/impg/AGFjW5LCk3J-f345-ippZLNyjQ76yShph1JPrQ/XP0MKu0bH_w.jpg?size=502x354&quality=96&sign=dbd3473e6e6ca18d705d04bcabce83e0&type=album)
+
+![Alt-example](https://sun9-38.userapi.com/impg/WWVsoCHO6-jBCpjH__ZEtGMAFT39iADjXVqEbg/e_rKIh5Wlqs.jpg?size=472x292&quality=96&sign=62b6c89e8d06fc57c02c4025d1b48d9c&type=album)
+
+## API
+
+URLSession – класс ответственный за управление сетевыми запросами
+
+URLSession.shared.dataTask(with: request) {data ,response , error in
+
+}.resume()
+
+Где data – данные которые будут возвращены из запроса
+
+Response – описание данных, которое включает в себя какой тип данных, количество отправленного, был ли статус кода и так далее
+ 
+![Alt-example](https://sun9-15.userapi.com/impg/lXAFxrqQLv0Fg2uyyrd0G4of6h4EW7S4vxWOyA/Qq6FdtFdMFU.jpg?size=764x382&quality=96&sign=d8f39d3957189630e75c7af4284196fc&type=album)
+ 
+![Alt-example](https://sun9-10.userapi.com/impg/1u_CTnJeV8pNwqLdNlFCqmtPlKkcWoUi87VJbg/LwjM0TVbQ7g.jpg?size=450x110&quality=96&sign=54f8e6be57b407c3e725bbd8e1330040&type=album)
+
+Пример с использованием list:
+
+![Alt-example](https://sun9-55.userapi.com/impg/pVkssw9mi1HutWJdLTDOcJvC92BnSCCmIDYRbQ/cJic7jle6Kw.jpg?size=378x270&quality=96&sign=1e56d8d49ce1dac4da3eeb475f839d73&type=album)
+ 
+Identifiable нужен чтобы показать данные в list
+
+![Alt-example](https://sun9-53.userapi.com/impg/akBqiihA8Hlqj6-9F6zcQ7puXGwEH3KhH1KRnQ/kGMg5UyoHOg.jpg?size=728x456&quality=96&sign=9ab8b8e77a0e20db156014b751efd818&type=album)
+
+![Alt-example](https://sun9-77.userapi.com/impg/KtUf9b2AKQIh2Tlt_qZNzG5WN9NSDhi6KiX49Q/NiNZuJy1RNM.jpg?size=618x364&quality=96&sign=7049e3c3450746820b696138379ebbcd&type=album)
 
 ## AVAudioPlayer
 Вставляем файл типом mp3 в проект
