@@ -50,6 +50,7 @@
   - [Lifecycle](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#LifecycleSwift)
   - [Memento Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Memento_Pattern)
   - [Observer Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Observer_Pattern)
+    - [KVO](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#KVO)
 
 - [SwiftUI](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#SwiftUI)
 
@@ -705,6 +706,21 @@ dequeueReusableAnnotationView – используется для экономи
 UIProgressView – показывает на UIBarButtonItem прогресс загрузки страницы
 
 ![Alt-example](https://sun9-17.userapi.com/impg/ysdicD4jiT9RBfULXq-tBou0s1Ifu-hCIA_DTg/NE7b0O9AFdU.jpg?size=624x494&quality=96&sign=255a2efad0f1b37036d93fbe6635a3ae&type=album)
+
+В функции observeValue когда изменяется estimatedProgress то в progress параметр устанавливается новое estimatedProgress, а в конце используем Float так как estimatedProgress является Double
+
+Метод WebView(… decidePolicyFor…) – этот отзыв делегата позволяет нам выбрать разрешать ли навигации происходить каждый раз когда что-то происходит
+
+![Alt-example](https://sun9-86.userapi.com/impg/Uv1K1FjZEa4Cp66Ddnn5P8n5qgtA8R-hlGHlKw/Zy-gW1kroGA.jpg?size=936x324&quality=96&sign=97aed89bdf6e1ba70de613c270bc4a66&type=album)
+
+Использование WebView и html разметки:
+
+![Alt-example](https://sun9-83.userapi.com/impg/ZRs0LuGR0ox0Nyis4zepvTVHbiRR31uvc73cnA/uDzwzwuvCZw.jpg?size=620x618&quality=96&sign=4092dc633787d5f8c34fdd81bd5ad2ac&type=album)
+
+![Alt-example](https://sun9-76.userapi.com/impg/En1R608yckyaKIGr31frY-9U6EmfyqZ2pOParw/a7al663py2s.jpg?size=278x164&quality=96&sign=84bb057550561cfc18b492167f76fae9&type=album)
+ 
+Font-size:150% - установить размер шрифта на 1,5 раза больше стандартного шрифта
+Width=device-width – говорит IOS что страница используется для мобильного устройства
 
 ## Debugging
 
@@ -1468,3 +1484,27 @@ Observer – объект который делает наблюдение
 ![Alt-example](https://sun9-4.userapi.com/impg/Y0r0xhJyI-3UVdN4A0ywszxoU5YdTYeLMH0hbQ/SilDAujdjMw.jpg?size=246x66&quality=96&sign=34838fbe84cd43eb08888a269e441f99&type=album)
 
 ![Alt-example](https://sun9-69.userapi.com/impg/47lmmLtSkvgbpyc00YREgUzQ0OgTSORxQ8eShg/TqII-f5Lew4.jpg?size=332x42&quality=96&sign=9ae954ec85f64c50db321d1f40a955ac&type=album)
+
+## KVO
+
+KVO(Key value observing) - целевое действие механизм который работает между двумя объектами, один объект это наблюдатель регистрирующий напрямую другой объект чтобы получать уведомление когда значение в этом объекте меняется
+
+Объявляем наблюдаемый объект:
+
+![Alt-example](https://sun9-22.userapi.com/impg/JUYXQ-vq2joQhy-5zBCICrG-UfZPTSU_MXDj6Q/edgjx5x7PDg.jpg?size=476x104&quality=96&sign=93261b9fcb0fa9c1df1eb9b58a4d881e&type=album) 
+
+Dynamic ставим так как он все время обновляется
+
+![Alt-example](https://sun9-85.userapi.com/impg/2AWv_rmbXeu8YDoO-VyydLodpgfm0n22K03AKw/KeBagm_gadE.jpg?size=716x290&quality=96&sign=54de2cad3596025598b6cc01d1769743&type=album)
+
+В 21 строке инициализируем наблюдаемый объект через @objc
+
+В 23 строке создаем наблюдатель
+
+В 28 строке в 1 аргументе наблюдателя пишем наблюдаемый объект, в options .new это будет создаваться новое значение при изменение, .old – значение старого параметра
+
+В замыкании находится действие которое будет выполняться при изменение наблюдаемого объекта
+
+![Alt-example](https://sun9-8.userapi.com/impg/7BP3FZc97lLAX0_kF3VtpA30Vs-lBSTLZh3L9Q/zsxJJymVeRU.jpg?size=936x160&quality=96&sign=011856c71f15e5d03e15ad3508151231&type=album)
+
+В функции observeValue когда изменяется estimatedProgress то в progress параметр устанавливается новое estimatedProgress, а в конце используем Float так как estimatedProgress является Double
