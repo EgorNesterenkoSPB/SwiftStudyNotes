@@ -1423,4 +1423,48 @@ AnyObject позволяет работать только с объектами
 
 ## Memento_Pattern
 
+Данный шаблон позволяет сохранить и восстановить объект
+
+![Alt-example](https://sun9-82.userapi.com/impg/meqKJ7ATE2ZGdROK3sr8uaGdg6HKgTUieimaCg/MjqpXT6kyL0.jpg?size=936x180&quality=96&sign=3abbd810975097f5d90789ebbecc9781&type=album)
+
+Originator – объект для сохранения или восстановления
+
+Memento – является записанным параметром
+
+Caretaker – запрашивает сохранение originator и получает memento в ответе. Он несет ответственность за сохранение memento и предоставления его обратно originator для восстановления originator состояние 
+
+Например Encoder используется для кодирования параметра originator в memento, а Decoder для декодирования memento обратно к originator. Это позволяет использовать логику кодирования и декодирования среди originator’s 
+
+JSONEncoder и JSONDecoder позволяют кодировать объект и декодировать его из данных JSON
+
+Данный паттерн используется для сохранения и последующего восстановления состояние объекта, например сохранить состояние игры где originator является игровым параметром например уровнем а memento – сохраненными данными и caretaker – игровая система
+
+Также можно сохранять массив mementos представляющих стэк предыдущих состояний
+
+![Alt-example](https://sun9-84.userapi.com/impg/GJpaqn7-MLtw32JctQSJo8aajI5SAFQZp2050A/0H7O-_AHLcg.jpg?size=452x374&quality=96&sign=355d915cd0e5ebb776537581b78fc3bd&type=album)
+
+![Alt-example](https://sun9-17.userapi.com/impg/yEJYsTscPDIbBDKDnpWett0P790N37u5X2hVrg/sAHxB3ooV8g.jpg?size=550x522&quality=96&sign=35b3d500cd32b78a2c65ac0aa9c52471&type=album)
+
+![Alt-example](https://sun9-15.userapi.com/impg/yqA4f0imeu7bVvmO7Vf54y05yedK8RxOlKvH6A/pZw7GFKSKwg.jpg?size=576x382&quality=96&sign=0905e80a7a9d91a57f9da72fa4c7f313&type=album)
+
 ## Observer_Pattern
+
+Данный паттерн позволяет объекту наблюдать изменения над другим объектом
+
+Есть два разных метода испольнения данного паттерна : KVO или используя Observable упаковщика
+
+![Alt-example](https://sun9-84.userapi.com/impg/0diI3pxE2BRbdzlJIW_ztV4JaIYGk7FXzOPnqA/nbdBECH8eQo.jpg?size=644x374&quality=96&sign=8088748ebb9a6a519a8948ed6c634a6d&type=album)
+
+Subject – это объект который будет наблюдаться
+
+Observer – объект который делает наблюдение
+
+Данный паттерн используется для получения изменений от других объектов 
+
+Часто используется  c MVC где view controller является observer и model является subject
+
+![Alt-example](https://sun9-24.userapi.com/impg/q0yy0ClAU1HyyPbMEZfDiApYMvO0AsQRK5q_OA/E-c7LLnjaaM.jpg?size=542x432&quality=96&sign=12ebacca824439c97e60e31050925d52&type=album)
+
+![Alt-example](https://sun9-4.userapi.com/impg/Y0r0xhJyI-3UVdN4A0ywszxoU5YdTYeLMH0hbQ/SilDAujdjMw.jpg?size=246x66&quality=96&sign=34838fbe84cd43eb08888a269e441f99&type=album)
+
+![Alt-example](https://sun9-69.userapi.com/impg/47lmmLtSkvgbpyc00YREgUzQ0OgTSORxQ8eShg/TqII-f5Lew4.jpg?size=332x42&quality=96&sign=9ae954ec85f64c50db321d1f40a955ac&type=album)
