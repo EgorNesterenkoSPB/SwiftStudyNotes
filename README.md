@@ -24,6 +24,7 @@
   - [Animation](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Animation)
   - [Segue](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Segue)
   - [MapKit](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MapKit)
+  - [UserDefaults](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UserDefaults)
   - [WebKit](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#WebKit)
   - [Debugging](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Debugging)
   - [Safari Extension](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Safari_extension)
@@ -1542,3 +1543,5 @@ Dynamic ставим так как он все время обновляется
 ![Alt-example](https://sun9-8.userapi.com/impg/7BP3FZc97lLAX0_kF3VtpA30Vs-lBSTLZh3L9Q/zsxJJymVeRU.jpg?size=936x160&quality=96&sign=011856c71f15e5d03e15ad3508151231&type=album)
 
 В функции observeValue когда изменяется estimatedProgress то в progress параметр устанавливается новое estimatedProgress, а в конце используем Float так как estimatedProgress является Double
+
+## UserDefaults
