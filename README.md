@@ -32,6 +32,7 @@
   - [Keyboard](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Keyboard)
     - [Keyboard with Swift Package Manager](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Keyboard_with_Swift_Package_Manager)
   - [UITextField](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UITextField)
+  - [UISearchBar](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UISearchBar)
   - [UNUserNotificationCenter](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UNUserNotificationCenter)
   - [Protocols](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Protocols)
   - [Delegate Design Patterns](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Delegate_Design_Patterns)
@@ -1550,3 +1551,5 @@ Dynamic ставим так как он все время обновляется
 В функции observeValue когда изменяется estimatedProgress то в progress параметр устанавливается новое estimatedProgress, а в конце используем Float так как estimatedProgress является Double
 
 ## UserDefaults
+
+## UISearchBar
