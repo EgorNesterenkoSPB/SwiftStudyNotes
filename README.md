@@ -25,6 +25,7 @@
   - [Segue](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Segue)
   - [MapKit](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MapKit)
   - [UserDefaults](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UserDefaults)
+  - [CoreData](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CoreData)
   - [WebKit](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#WebKit)
   - [Debugging](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Debugging)
   - [Safari Extension](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Safari_extension)
@@ -674,6 +675,10 @@ CGAffineTransform – структура которая представляет
 Чтобы добавить пружинитости при анимации объекта: usingSpringWithDamping и initialSpringVelocity
 
 ![Alt-example](https://sun9-57.userapi.com/impg/dizVjnetFMYVeYNyzcQAWO069T1ntqH5Toowow/OxUzu8OPUzg.jpg?size=936x62&quality=96&sign=4973d4abf8b197078feadf0d989dcfb6&type=album)
+
+## CoreData
+
+
 
 ## Segue
 
