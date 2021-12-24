@@ -17,6 +17,7 @@
 - [Swift](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Swift)
 
   - [MVC](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVC)
+  - [MVVM](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVVM)
   - [GIT](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#GIT)
   - [GCD](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#GCD)
   - [CoreImage](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CoreImage)
