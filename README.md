@@ -1560,3 +1560,5 @@ Dynamic ставим так как он все время обновляется
 ## Realm
 
 ## Builder_Pattern
+
+## MVVM
