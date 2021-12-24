@@ -45,6 +45,7 @@
   - [Picker](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Picker)
   - [Strategy Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Strategy_Pattern)
   - [Singleton Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Singleton_Pattern)
+  - [Builder Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Builder_Pattern)
   - [Animation Welcome View with Loops](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Animation_Welcome_View_with_Loops)
   - [CocoaPods](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CocoaPods)
   - [Firebase](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Firebase)
@@ -1556,3 +1557,5 @@ Dynamic ставим так как он все время обновляется
 ## UISearchBar
 
 ## Realm
+
+## Builder_Pattern
