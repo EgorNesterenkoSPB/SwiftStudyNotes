@@ -49,6 +49,7 @@
   - [Builder Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Builder_Pattern)
   - [Factory_Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Factory_Pattern)
   - [Adapter Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Adapter_Pattern)
+  - [Iterator Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Iterator_Pattern)
   - [Animation Welcome View with Loops](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Animation_Welcome_View_with_Loops)
   - [CocoaPods](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CocoaPods)
   - [Firebase](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Firebase)
@@ -1571,3 +1572,5 @@ Dynamic ставим так как он все время обновляется
 ## Factory_Pattern
 
 ## Adapter_Pattern
+
+## Iterator_Pattern
