@@ -51,6 +51,7 @@
   - [Adapter Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Adapter_Pattern)
   - [Iterator Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Iterator_Pattern)
   - [Prototype Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Prototype_Pattern)
+  - [Facade Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Facade_Pattern)
   - [State Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#State_Pattern)
   - [Animation Welcome View with Loops](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Animation_Welcome_View_with_Loops)
   - [CocoaPods](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CocoaPods)
@@ -1586,3 +1587,5 @@ Dynamic ставим так как он все время обновляется
 ## Advanced_Operators
 
 ## Multicast_Delegate_Pattern
+
+## Facade_Pattern
