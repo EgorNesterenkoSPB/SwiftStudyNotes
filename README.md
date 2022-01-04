@@ -53,6 +53,7 @@
   - [Prototype Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Prototype_Pattern)
   - [Facade Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Facade_Pattern)
   - [State Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#State_Pattern)
+  - [Flyweight Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Flyweight_Pattern)
   - [Animation Welcome View with Loops](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Animation_Welcome_View_with_Loops)
   - [CocoaPods](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CocoaPods)
   - [Firebase](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Firebase)
@@ -1589,3 +1590,5 @@ Dynamic ставим так как он все время обновляется
 ## Multicast_Delegate_Pattern
 
 ## Facade_Pattern
+
+## Flyweight_Pattern
