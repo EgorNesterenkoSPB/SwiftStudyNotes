@@ -64,6 +64,7 @@
   - [Lifecycle](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#LifecycleSwift)
   - [Memento Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Memento_Pattern)
   - [Mediator Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Mediator_Pattern)
+  - [Command Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Command_Pattern)
   - [Composite Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Composite_Pattern)
   - [Multicast Delegate Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Multicast_Delegate_Pattern)
   - [Advanced Operators](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Advanced_Operators)
@@ -1578,6 +1579,8 @@ Dynamic ставим так как он все время обновляется
 ## Composite_Pattern
 
 ## Facebook_Login
+
+## Command_Pattern
 
 ## Factory_Pattern
 
