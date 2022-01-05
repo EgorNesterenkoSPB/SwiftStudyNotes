@@ -63,6 +63,7 @@
   - [Type Casting](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Type_Casting)
   - [Lifecycle](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#LifecycleSwift)
   - [Memento Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Memento_Pattern)
+  - [Mediator Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Mediator_Pattern)
   - [Multicast Delegate Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Multicast_Delegate_Pattern)
   - [Advanced Operators](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Advanced_Operators)
   - [Observer Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Observer_Pattern)
@@ -1590,5 +1591,7 @@ Dynamic ставим так как он все время обновляется
 ## Multicast_Delegate_Pattern
 
 ## Facade_Pattern
+
+## Mediator_Pattern
 
 ## Flyweight_Pattern
