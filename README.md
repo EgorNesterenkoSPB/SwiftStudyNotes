@@ -53,6 +53,7 @@
   - [Prototype Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Prototype_Pattern)
   - [Facade Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Facade_Pattern)
   - [State Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#State_Pattern)
+  - [Chain-of-Responsibility Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Chain-of-Responsibility_Pattern)
   - [Flyweight Pattern](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Flyweight_Pattern)
   - [Animation Welcome View with Loops](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Animation_Welcome_View_with_Loops)
   - [CocoaPods](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CocoaPods)
@@ -1603,5 +1604,7 @@ Dynamic ставим так как он все время обновляется
 ## Mediator_Pattern
 
 ## Flyweight_Pattern
+
+## Chain-of-Responsibility_Pattern
 
 ## Objective-C
