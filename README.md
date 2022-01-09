@@ -20,6 +20,7 @@
   - [MVVM](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#MVVM)
   - [GIT](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#GIT)
   - [GCD](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#GCD)
+  - [Error Handling](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Error_Handling)
   - [CoreImage](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#CoreImage)
   - [UIImageWriteToSavedPhotosAlbum](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#UIImageWriteToSavedPhotosAlbum)
   - [Animation](https://github.com/EgorNesterenkoSPB/SwiftStudyNotes#Animation)
@@ -1609,5 +1610,7 @@ Dynamic ставим так как он все время обновляется
 ## Coordinator_Pattern
 
 ## Chain-of-Responsibility_Pattern
+
+## Error_Handling
 
 ## Objective-C
